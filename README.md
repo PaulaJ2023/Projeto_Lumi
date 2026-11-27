@@ -1,68 +1,58 @@
 # LUMI — Sua jornada universitária, mais leve
 
-Projeto acadêmico de assistente virtual universitária. A LUMI foi concebida para atender estudantes da **Universidade Aurora (UVA)**, uma instituição inteiramente fictícia criada para este projeto.
+A LUMI é um **protótipo acadêmico independente de assistente virtual universitária**, desenvolvido em português brasileiro. A base inicial usa informações públicas da Universidade Potiguar (UnP), com foco de pesquisa nos estudantes da unidade Salgado Filho, em Natal/RN.
 
-## Universo institucional da LUMI
+> **Importante:** a LUMI não é um canal oficial da UnP, não possui vínculo institucional, não acessa o Ulife nem consulta dados pessoais, acadêmicos ou financeiros. As respostas são orientações gerais e devem ser confirmadas nos canais oficiais.
 
-- **Universidade:** Universidade Aurora (UVA).
-- **Campus:** Campus Horizonte.
-- **Portal do estudante:** Portal Aurora.
-- **Ambiente virtual de aprendizagem:** Aurora Online.
-- **Atendimento acadêmico:** Secretaria Acadêmica.
-- **Atendimento financeiro:** Central Financeira.
-- **Atendimento geral:** Central de Relacionamento Aurora.
-- **Biblioteca:** Biblioteca Aurora.
+## Acessar o protótipo
 
-A Universidade Aurora, seus setores, sistemas, procedimentos e regras são fictícios. Não representam uma instituição real, não possuem vínculo institucional e não devem ser usados como orientação para estudantes de universidades reais.
-
-## Acessar
-
-Abra [index.html](./index.html) no navegador. Para carregar a base JSON, utilize um servidor HTTP, como GitHub Pages ou um servidor local.
-
-## Experiência do estudante
-
-- Chat acolhedor em português brasileiro.
-- Sugestões de assuntos e próximos passos.
-- Identificação do agente responsável.
-- Retorno ao menu inicial.
-- Opção demonstrativa de encaminhamento humano.
-- Respostas consultadas no arquivo `data/base-conhecimento-lumi.json`.
+Abra [index.html](./index.html) por um servidor HTTP, como GitHub Pages ou servidor local, para que o navegador carregue o arquivo JSON da base.
 
 ## Agentes
 
 1. **LUMI — Generalista:** acolhe, identifica a intenção e direciona.
-2. **LUMI Acadêmica:** matrícula, rematrícula, documentos, declarações, histórico e secretaria.
-3. **LUMI Financeira:** mensalidades, pagamentos, cobranças, bolsas, negociação e extrato.
-4. **LUMI Campus:** calendário, avaliações, notas, cursos, disciplinas, biblioteca e vida acadêmica.
+2. **LUMI Acadêmica:** matrícula, RA, documentos, declarações, histórico e secretaria.
+3. **LUMI Financeira:** mensalidades, boletos, pagamentos, cobranças, bolsas e financiamentos.
+4. **LUMI Campus:** calendário, avaliações, cursos e vida acadêmica.
 
-O atendimento humano é uma rota de encaminhamento, não um agente especialista. No protótipo, a opção apenas demonstra o fluxo e não transfere a conversa a uma equipe real nem abre protocolo.
+O atendimento humano é uma rota demonstrativa de encaminhamento, não um quinto agente. Não existe transferência real nem abertura de protocolo.
 
 ## Base de conhecimento
 
-O arquivo [base-conhecimento-lumi.json](./data/base-conhecimento-lumi.json) é a fonte de conteúdo do protótipo. Ele contém:
-- identidade e descrição da Universidade Aurora;
-- regras de comportamento e segurança da LUMI;
-- artigos organizados por agente;
-- perguntas frequentes, palavras-chave e respostas;
-- orientações de encaminhamento e limites de atuação.
+A fonte utilizada pelo chat é [data/base-conhecimento-lumi.json](./data/base-conhecimento-lumi.json). A documentação editorial completa está em [docs/base-conhecimento-lumi.md](./docs/base-conhecimento-lumi.md).
 
-Os artigos descrevem procedimentos próprios do universo fictício UVA. Datas específicas, valores individuais, notas, frequência e dados de cadastro não são inventados pelo chatbot: quando dependem de contexto individual ou de calendário vigente, a LUMI orienta a consulta ao Portal Aurora ou ao setor responsável.
+A base:
+- separa artigos por agente;
+- contém perguntas, palavras-chave, respostas, fontes e status de validação;
+- utiliza links institucionais públicos da UnP;
+- marca assuntos que exigem confirmação individual ou consulta a calendário/edital vigente;
+- não contém resultados do Forms, pois a pesquisa com estudantes ainda será realizada.
 
-### Estrutura de cada artigo
+## Pesquisa com estudantes
 
-Cada artigo possui `id`, `pergunta`, `palavras_chave`, `resposta`, `fonte` e `status`. A estrutura principal é `categorias → categoria → itens`.
+A pesquisa de campo deverá reunir **pelo menos 30 respostas reais de estudantes da UnP**, conforme a atividade. Os resultados serão analisados separadamente das regras institucionais. As respostas do formulário ajudarão a identificar prioridades e dúvidas frequentes, mas não comprovam políticas oficiais da universidade.
+
+## Experiência do estudante
+
+- Chat responsivo e acolhedor.
+- Sugestões de assuntos e próximos passos.
+- Identificação do agente especialista.
+- Respostas carregadas do JSON.
+- Exibição da fonte para conferência.
+- Opção demonstrativa de atendimento humano.
 
 ## Área administrativa — LUMI Studio
 
-O painel demonstra visão geral, agentes, prompts, base de conhecimento, laboratório de testes, resultados e histórico. A edição feita na interface ainda não é persistida no arquivo JSON nem em banco de dados.
+O painel contém visão geral, agentes, prompts, base de conhecimento, laboratório de testes, resultados e histórico. As métricas são locais e demonstrativas. Alterações feitas nos campos do painel não são persistidas no JSON ou em banco de dados.
 
-## Tecnologias e limitações atuais
+## Tecnologias e limites atuais
 
 - Interface: HTML, CSS e JavaScript.
-- Base: arquivo JSON versionado no GitHub.
+- Base: JSON versionado no GitHub.
 - Roteamento: correspondência local por palavras-chave.
-- Ainda não há modelo de IA generativa, Supabase, n8n, autenticação administrativa ou persistência de conversas.
-- Indicadores do painel são demonstrativos, não métricas de uso real.
+- Não há IA generativa, Supabase, n8n, autenticação administrativa ou integração com sistemas da UnP.
+- Não consulta matrícula, notas, boletos ou pagamentos individuais.
+- Não emite documentos nem abre chamados.
 
 ## Estrutura
 
@@ -74,10 +64,23 @@ Projeto_Lumi/
 │   └── base-conhecimento-lumi.json
 └── docs/
     ├── arquitetura.md
+    ├── base-conhecimento-lumi.md
     ├── guia-administrativo.md
     └── plano-de-evolucao.md
 ```
 
-## Próximas etapas
+## Documentação
 
-Consulte [arquitetura](docs/arquitetura.md), [guia administrativo](docs/guia-administrativo.md) e [plano de evolução](docs/plano-de-evolucao.md).
+- [Base de conhecimento](docs/base-conhecimento-lumi.md)
+- [Arquitetura](docs/arquitetura.md)
+- [Guia administrativo](docs/guia-administrativo.md)
+- [Plano de evolução](docs/plano-de-evolucao.md)
+
+## Fontes institucionais principais
+
+- [Sou Estudante](https://www.unp.br/sou-estudante/)
+- [Calendário acadêmico](https://www.unp.br/sou-estudante/calendario/)
+- [Manual do aluno](https://www.unp.br/sou-estudante/manual-do-aluno/)
+- [Cursos](https://www.unp.br/cursos/)
+- [Sou Candidato](https://www.unp.br/sou-candidato/)
+- [Ulife](https://ulife.com.br/)
