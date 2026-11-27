@@ -4,6 +4,7 @@
 - [x] Interface responsiva em português brasileiro.
 - [x] Identidade visual acolhedora.
 - [x] Visão do estudante e área administrativa.
+- [x] Indicadores locais de assuntos e sentimento estimado das mensagens do aluno (somente na sessão).
 - [x] Generalista e três agentes especialistas.
 - [x] Chat consulta arquivo JSON local.
 - [x] Sugestões rápidas, status e identificação do agente.
@@ -38,6 +39,7 @@
 - [ ] Proteger chaves e segredos exclusivamente no backend.
 
 ## Etapa 5 — Validação e entrega
+- [ ] Executar o roteiro de testes documentado em `docs/plano-de-testes.md`.
 - [ ] Testar perguntas conhecidas, ambíguas e fora do escopo.
 - [ ] Testar tentativas de induzir a IA a inventar regras.
 - [ ] Testar pedidos de dados individuais e informações sensíveis.
