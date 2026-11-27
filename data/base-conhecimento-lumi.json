@@ -1,6 +1,6 @@
 {
   "nome": "Base de conhecimento da LUMI — Universidade Potiguar",
-  "versao": "1.0.0",
+  "versao": "1.1.0",
   "ultima_revisao": "2026-11-27",
   "finalidade": "Base inicial para protótipo acadêmico independente, baseada em páginas públicas institucionais da Universidade Potiguar (UnP). Foco de pesquisa: estudantes da unidade Salgado Filho, Natal/RN. Não substitui os canais oficiais e não contém dados da pesquisa Forms.",
   "aviso": "A LUMI é um protótipo acadêmico independente, concebido como ponto central de orientação e autoatendimento para estudantes da UnP. Não é um canal oficial, não possui vínculo institucional e não consulta cadastros individuais. As respostas usam referências públicas da UnP; funções personalizadas dependem de integração segura ainda não implementada.",
@@ -14,7 +14,12 @@
     "Não solicitar senha, token, dados bancários, cartão ou documentos pessoais pelo chat.",
     "Não afirmar que consultou cadastro, emitiu documento, confirmou pagamento ou abriu protocolo.",
     "Quando a informação depender de situação individual ou não estiver confirmada, explicar a limitação e indicar os canais oficiais da UnP.",
-    "O Forms com estudantes reais será incorporado depois da coleta; não simular respostas nem percentuais."
+    "O Forms com estudantes reais será incorporado depois da coleta; não simular respostas nem percentuais.",
+    "Responder primeiro à dúvida com explicação e passos práticos; não usar o link como substituto da resposta.",
+    "Só apresentar uma fonte no chat quando o estudante pedir a referência ou quando a fonte for indispensável para consultar edital, calendário ou documento vigente.",
+    "Quando houver mais de uma interpretação, fazer uma pergunta curta para esclarecer antes de encaminhar.",
+    "Não usar o nome de plataformas institucionais externas na experiência; explicar os procedimentos pelo fluxo proposto da LUMI, sem afirmar que integra sistemas.",
+    "A LUMI pode explicar conceitos e organizar solicitações, mas não afirmar que emitiu documentos, consultou saldo, alterou matrícula ou concluiu protocolos."
   ],
   "categorias": {
     "Academica": {
@@ -33,7 +38,7 @@
             "ingresso",
             "novo aluno"
           ],
-          "resposta": "A LUMI reúne orientações sobre ingresso e matrícula na UnP. Se você ainda é candidato, consulte a página Sou Candidato para acompanhar as etapas de ingresso. Para verificar uma matrícula individual, será necessário atendimento autenticado da universidade; o protótipo da LUMI ainda não consulta cadastros.",
+          "resposta": "Claro! 💜 Vamos identificar sua situação. Se você ainda está ingressando na UnP, o caminho geral é: realizar o processo seletivo, acompanhar o resultado, enviar a documentação solicitada após a aprovação e efetivar a matrícula depois da análise. Se você já é estudante, sua dúvida pode ser rematrícula, ajuste de disciplinas ou alguma pendência. Me diga qual dessas situações descreve melhor seu caso. Os documentos e prazos dependem da forma de ingresso, do curso e do edital vigente; a LUMI não consulta sua matrícula individual.",
           "fonte": "https://www.unp.br/sou-candidato/ | https://www.unp.br/sou-estudante/",
           "status": "referência pública — confirmar caso individual"
         },
@@ -63,7 +68,7 @@
             "comprovante",
             "secretaria"
           ],
-          "resposta": "A LUMI organiza orientações sobre documentos, declarações e histórico escolar. Consulte na área Acadêmica da LUMI as informações gerais disponíveis. A emissão de documentos oficiais, taxas, prazos e requisitos depende das regras vigentes da UnP e de uma solicitação autenticada; essa operação ainda não está integrada ao protótipo.",
+          "resposta": "Posso ajudar! Primeiro, identifique o documento: declaração de matrícula/vínculo, declaração de frequência, histórico, comprovante ou outro. Em seguida, tenha em mãos o nome do curso e a finalidade do documento para descrever o pedido com clareza. A emissão oficial pode depender de validação acadêmica, requisitos e prazos próprios. A LUMI orienta e organiza o pedido, mas ainda não emite documentos nem consulta seu cadastro.",
           "fonte": "https://www.unp.br/sou-estudante/ | https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "procedimento específico precisa validar"
         },
@@ -96,6 +101,83 @@
           "resposta": "Use a LUMI como ponto inicial para organizar sua solicitação acadêmica e identificar o assunto correto. A abertura e o acompanhamento de requerimentos dependem de integração com a secretaria e autenticação do estudante; essas operações ainda não estão disponíveis no protótipo.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "encaminhamento oficial"
+        },
+        {
+          "id": "acad-rematricula",
+          "pergunta": "Como faço minha rematrícula?",
+          "palavras_chave": [
+            "rematricula",
+            "rematrícula",
+            "renovar matricula",
+            "renovação de matrícula",
+            "continuar no curso"
+          ],
+          "resposta": "Vamos separar sua dúvida: rematrícula é a renovação do vínculo para continuar estudando no próximo período. Antes de iniciar, confira se há pendências acadêmicas ou financeiras, confirme se está no período de renovação informado para seu curso e revise as disciplinas/Unidades Curriculares previstas. Se a sua dúvida for sobre prazo, bloqueio ou confirmação individual, preciso que a equipe responsável confira seu cadastro; a LUMI ainda não acessa registros pessoais. Posso ajudar a identificar se o problema é prazo, pendência ou escolha de disciplinas.",
+          "fonte": "https://www.unp.br/sou-estudante/ | https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "status": "orientação geral; regra individual depende do curso e período"
+        },
+        {
+          "id": "acad-ingresso",
+          "pergunta": "Quais são as etapas para entrar na UnP e fazer matrícula?",
+          "palavras_chave": [
+            "quero entrar",
+            "ingressar",
+            "processo seletivo",
+            "vestibular",
+            "inscricao",
+            "inscrição",
+            "sou candidato",
+            "documentos para matricula",
+            "documentação de matrícula"
+          ],
+          "resposta": "Se você ainda está ingressando, o processo divulgado pela UnP tem estas etapas gerais: 1) realizar o processo seletivo e acompanhar o resultado; 2) após a aprovação, enviar a documentação solicitada; 3) aguardar a análise dos documentos; 4) efetivar a matrícula para garantir a vaga. Os documentos e prazos podem variar conforme a forma de ingresso e o edital. Se você me disser se entrou por vestibular, ENEM, transferência ou outra modalidade, posso orientar melhor sobre o caminho e o que conferir.",
+          "fonte": "https://www.unp.br/sou-candidato/",
+          "status": "etapas gerais confirmadas; documentos e prazos dependem do edital vigente"
+        },
+        {
+          "id": "acad-declaracao",
+          "pergunta": "Como pedir uma declaração de vínculo ou matrícula?",
+          "palavras_chave": [
+            "declaracao de matricula",
+            "declaração de matrícula",
+            "declaração de vínculo",
+            "declaracao de vinculo",
+            "comprovante de matricula",
+            "comprovante de vínculo"
+          ],
+          "resposta": "Para pedir uma declaração, primeiro identifique qual documento você precisa: declaração de matrícula/vínculo, declaração de frequência ou outro tipo. Tenha em mãos o nome do curso e a finalidade do documento para descrever corretamente a solicitação. A emissão de uma declaração oficial depende da validação dos seus dados acadêmicos e das regras vigentes. A LUMI pode ajudar a organizar o pedido, mas não emite documentos nem confirma prazos ou taxas sem uma integração institucional.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "status": "orientação geral; emissão, prazo e eventual taxa precisam de confirmação"
+        },
+        {
+          "id": "acad-frequencia",
+          "pergunta": "O que faço se minhas faltas ou frequência estiverem incorretas?",
+          "palavras_chave": [
+            "falta",
+            "faltas",
+            "frequencia",
+            "frequência",
+            "presenca",
+            "presença",
+            "erro de chamada",
+            "diario de classe"
+          ],
+          "resposta": "Se você identificou uma falta que considera incorreta, reúna as informações da aula (disciplina, data e turma) e procure primeiro o professor responsável para explicar a divergência. Se for necessário formalizar uma solicitação, descreva o ocorrido e guarde eventuais comprovantes. O procedimento e o prazo aplicável devem ser confirmados no manual correspondente ao seu currículo e modalidade; não vou indicar um prazo único porque os manuais podem variar.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "status": "procedimento depende do manual e currículo aplicáveis"
+        },
+        {
+          "id": "acad-uc",
+          "pergunta": "O que significa UC na faculdade?",
+          "palavras_chave": [
+            "uc",
+            "unidade curricular",
+            "unidades curriculares",
+            "disciplina curricular"
+          ],
+          "resposta": "UC significa Unidade Curricular. É a denominação usada pela UnP para componentes de aprendizagem que fazem parte da organização do curso. Se você quiser, posso ajudar a entender como uma UC aparece na sua matriz ou como identificar as unidades do período; para conferir sua matriz individual, seria necessário acesso autenticado aos seus dados acadêmicos.",
+          "fonte": "https://www.unp.br/sou-estudante/",
+          "status": "referência pública"
         }
       ]
     },
@@ -114,7 +196,7 @@
             "financeiro",
             "extrato financeiro"
           ],
-          "resposta": "A área Financeira da LUMI foi concebida para reunir orientações sobre mensalidades, boletos e extrato financeiro. Nesta versão, a LUMI não consulta valores individuais nem emite boletos. Para uma consulta personalizada, será necessária integração segura com os dados financeiros da UnP.",
+          "resposta": "Vamos por partes. Para localizar uma cobrança, identifique o mês ou parcela e confira se você precisa do boleto atual, da segunda via de uma parcela vencida ou do extrato de pagamentos. Antes de pagar, confira beneficiário, valor e vencimento no canal oficial de atendimento financeiro. Se o boleto não aparecer ou o valor estiver diferente, não pague um documento suspeito: solicite conferência. A LUMI pode orientar o que verificar, mas não emite boleto nem acessa seu saldo individual.",
           "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "referência em manual — conferir versão vigente"
         },
@@ -181,6 +263,74 @@
           "resposta": "A LUMI pode orientar sobre os próximos passos para tratar uma mensalidade vencida. A atualização de boleto, cálculo de encargos e negociação dependem das condições contratuais e de consulta autenticada aos dados financeiros; essas operações ainda não estão integradas ao protótipo.",
           "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "referência em manual — conferir versão vigente"
+        },
+        {
+          "id": "fin-organizar-divergencia",
+          "pergunta": "O que devo fazer se houver divergência na mensalidade?",
+          "palavras_chave": [
+            "mensalidade errada",
+            "cobraram errado",
+            "cobranca indevida",
+            "cobrança indevida",
+            "divergencia financeira",
+            "divergência financeira",
+            "valor da parcela",
+            "desconto nao aplicado",
+            "desconto não aplicado"
+          ],
+          "resposta": "Vamos organizar a conferência. Compare o valor cobrado com o contrato/condições da sua matrícula e verifique se há bolsa, desconto ou ajuste previsto para o período. Separe o mês de referência, o valor apresentado e uma descrição objetiva da divergência. Não envie CPF, dados de cartão ou informações bancárias aqui. A análise do valor depende do seu contrato e do cadastro financeiro; a LUMI pode orientar a preparar a solicitação, mas não consegue consultar sua ficha individual.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/ | https://www.unp.br/sobre/assessoria-financeira/",
+          "status": "orientação; análise individual exige atendimento financeiro"
+        },
+        {
+          "id": "fin-pagamento-comprovante",
+          "pergunta": "Quais cuidados devo ter quando um pagamento não é reconhecido?",
+          "palavras_chave": [
+            "comprovante de pagamento",
+            "pagamento nao caiu",
+            "pagamento não caiu",
+            "pagamento não reconhecido",
+            "pagamento nao reconhecido",
+            "pagamento pendente",
+            "baixa do boleto"
+          ],
+          "resposta": "Primeiro, confira no aplicativo ou banco se a transação foi efetivamente concluída — agendamento não é a mesma coisa que pagamento confirmado. Guarde o comprovante final, com data e valor, e anote a parcela a que ele se refere. Depois solicite a conferência pelo atendimento financeiro da universidade. Não publique comprovantes nem dados bancários no chat. A LUMI não consulta a baixa de pagamentos, mas pode ajudar você a organizar as informações para explicar o caso.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "status": "orientação geral; validação depende da área financeira"
+        },
+        {
+          "id": "fin-negociacao",
+          "pergunta": "Como me preparar para negociar uma mensalidade em atraso?",
+          "palavras_chave": [
+            "negociar mensalidade",
+            "negociação de dívida",
+            "negociacao de divida",
+            "renegociar mensalidade",
+            "divida",
+            "dívida",
+            "parcelamento de mensalidade",
+            "acordo financeiro"
+          ],
+          "resposta": "Para tratar uma mensalidade em atraso, organize: período da cobrança, valor que aparece, situação atual do pagamento e se existe algum acordo anterior. Peça que a equipe financeira confirme o saldo atualizado, encargos aplicáveis e opções disponíveis antes de aceitar uma proposta. Condições de negociação variam conforme contrato e situação individual; a LUMI não calcula juros, gera boletos ou fecha acordos.",
+          "fonte": "https://www.unp.br/sobre/assessoria-financeira/",
+          "status": "condições individualizadas; confirmar com atendimento financeiro"
+        },
+        {
+          "id": "fin-bolsa-documentos",
+          "pergunta": "Como descubro se tenho direito a bolsa ou financiamento?",
+          "palavras_chave": [
+            "tenho direito a bolsa",
+            "conseguir bolsa",
+            "bolsa de estudo",
+            "prouni",
+            "fies",
+            "financiamento estudantil",
+            "bolsa enem",
+            "desconto na mensalidade"
+          ],
+          "resposta": "A elegibilidade depende do programa, do edital vigente e da sua situação acadêmica e socioeconômica. Comece identificando o programa (por exemplo, ProUni, FIES ou uma política institucional), leia os critérios e confira o período de inscrição e os documentos exigidos no edital específico. A LUMI pode explicar o edital se você trouxer o texto ou disser qual programa está consultando, mas não consegue confirmar sua elegibilidade individual.",
+          "fonte": "https://www.unp.br/sou-candidato/editais/ | https://www.unp.br/sou-candidato/",
+          "status": "depende de edital vigente"
         }
       ]
     },
@@ -201,7 +351,7 @@
             "prova",
             "prazo"
           ],
-          "resposta": "A UnP publica calendários diferentes conforme modalidade e currículo. Acesse a página oficial de Calendário Acadêmico e selecione a opção correspondente ao seu vínculo. Antes de orientar sobre datas, é importante identificar se você estuda presencial, semipresencial ou EaD e qual currículo se aplica. Não use datas de outro calendário.",
+          "resposta": "A UnP mantém calendários diferentes conforme currículo e modalidade. Para encontrar o correto, identifique se seu curso é presencial, semipresencial ou EaD, se está no currículo novo ou legado e qual período de ingresso se aplica. A página oficial apresenta as opções de calendário de 2026. Se você me disser sua modalidade e quando ingressou, ajudo a escolher a seção certa. Não vou indicar uma data sem confirmar o calendário correspondente.",
           "fonte": "https://www.unp.br/sou-estudante/calendario/",
           "status": "fonte dinâmica — consultar calendário vigente"
         },
@@ -261,6 +411,107 @@
           "resposta": "A UnP divulga oportunidades e serviços ligados à vida acadêmica, como estágio, extensão e iniciação científica. A página Sou Estudante também reúne acessos e orientações sobre biblioteca, Enade, colação de grau e outros serviços. Consulte a página institucional para informações atualizadas.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "referência pública"
+        },
+        {
+          "id": "camp-calendario-selecionar",
+          "pergunta": "Qual calendário acadêmico devo consultar?",
+          "palavras_chave": [
+            "qual calendario",
+            "qual calendário",
+            "calendario certo",
+            "calendário certo",
+            "calendario do meu curso",
+            "calendário do meu curso",
+            "datas do semestre",
+            "quando começam as aulas"
+          ],
+          "resposta": "A UnP publica calendários separados por currículo, modalidade e, em alguns casos, unidade. Para escolher o correto, confira: 1) seu curso; 2) se seu currículo é novo ou legado; 3) modalidade (presencial, semipresencial ou EaD); 4) campus/unidade e período de ingresso. A página de calendário apresenta opções de 2026 e separa esses grupos. Se você me disser modalidade e período de ingresso, ajudo a identificar qual seção consultar. Não vou misturar datas de calendários diferentes.",
+          "fonte": "https://www.unp.br/sou-estudante/calendario/",
+          "status": "fonte dinâmica; selecionar modalidade e currículo"
+        },
+        {
+          "id": "camp-avaliacao-notas",
+          "pergunta": "Como funcionam as provas A1, A2 e A3?",
+          "palavras_chave": [
+            "a1",
+            "a2",
+            "a3",
+            "provas",
+            "prova",
+            "avaliacoes",
+            "avaliações",
+            "nota da prova",
+            "calculo da nota",
+            "cálculo da nota"
+          ],
+          "resposta": "A UnP informa que o processo avaliativo pode envolver A1, A2 e A3 ao longo do semestre. A composição da nota considera avaliações e atividades previstas para a unidade curricular, mas pesos, fórmulas, notas mínimas e regras podem variar conforme curso, currículo e modalidade. Para entender sua situação, confira o plano de ensino e o manual aplicável à sua turma. Se você disser qual é a dúvida (peso, média, segunda chamada ou nota lançada), posso explicar o conceito sem inventar uma fórmula.",
+          "fonte": "https://www.unp.br/sou-estudante/ | https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "status": "regras detalhadas dependem do currículo e unidade curricular"
+        },
+        {
+          "id": "camp-biblioteca",
+          "pergunta": "Quais serviços a biblioteca da UnP oferece?",
+          "palavras_chave": [
+            "biblioteca",
+            "emprestimo de livro",
+            "empréstimo de livro",
+            "renovar livro",
+            "reserva de livro",
+            "acervo",
+            "sala de estudo",
+            "base de dados"
+          ],
+          "resposta": "A biblioteca da UnP oferece serviços como consulta e pesquisa no acervo, renovação de empréstimos, reserva de exemplares, histórico de usuário, materiais de normalização e acesso a bases de dados. Também há espaços de estudo e atividades de orientação para pesquisa. Se você me disser se precisa de livro, renovação, reserva ou ajuda para pesquisa acadêmica, posso explicar qual serviço procurar.",
+          "fonte": "https://www.unp.br/sou-estudante/biblioteca/",
+          "status": "referência pública"
+        },
+        {
+          "id": "camp-colacao",
+          "pergunta": "O que preciso verificar antes da colação de grau?",
+          "palavras_chave": [
+            "colacao de grau",
+            "colação de grau",
+            "formatura",
+            "formando",
+            "diploma",
+            "pendencia para formar",
+            "pendência para formar"
+          ],
+          "resposta": "Antes da colação, confira se sua integralização curricular está concluída e se não há pendências acadêmicas ou documentais. A página da UnP destaca a conclusão da carga horária obrigatória, incluindo atividades complementares, extensão, TCC e estágio quando aplicáveis, além da documentação obrigatória e regularidade no ENADE. Os critérios e calendários variam por modalidade e curso; consulte a orientação específica da sua turma. A LUMI pode ajudar a montar uma lista de conferência, mas não verifica seu histórico individual.",
+          "fonte": "https://www.unp.br/sou-estudante/colacao-de-grau/",
+          "status": "critérios e calendário variam por modalidade e curso"
+        },
+        {
+          "id": "camp-enade",
+          "pergunta": "O ENADE é obrigatório? Como sei se preciso participar?",
+          "palavras_chave": [
+            "enade",
+            "prova enade",
+            "questionario do estudante",
+            "questionário do estudante",
+            "regularidade enade"
+          ],
+          "resposta": "O ENADE se aplica aos estudantes selecionados conforme o ciclo e as regras divulgadas pelo INEP. A página da UnP informa que, para os estudantes convocados, o Questionário do Estudante é componente obrigatório e deve ser respondido antes da prova. Verifique se seu curso está no ciclo vigente e acompanhe as orientações oficiais. A LUMI não consegue confirmar sua convocação individual.",
+          "fonte": "https://www.unp.br/sou-estudante/enade/",
+          "status": "depende do ciclo e da convocação do estudante"
+        },
+        {
+          "id": "camp-ouvidoria",
+          "pergunta": "Quando devo procurar a Ouvidoria da UnP?",
+          "palavras_chave": [
+            "ouvidoria",
+            "reclamar",
+            "reclamação",
+            "reclamacao",
+            "problema nao resolvido",
+            "problema não resolvido",
+            "protocolo sem resposta",
+            "atendimento insatisfatorio",
+            "atendimento insatisfatório"
+          ],
+          "resposta": "A Ouvidoria é indicada quando uma demanda não foi resolvida pelo atendimento habitual. A orientação publicada pela UnP é que o estudante tenha um protocolo com prazo de resposta vencido ou uma resposta recente que não tenha sido satisfatória. Antes de registrar, reúna o número do protocolo, a data e um resumo objetivo do que aconteceu. A Ouvidoria recebe e encaminha a demanda às áreas responsáveis; a LUMI pode ajudar a organizar o relato, mas não registra a reclamação por você.",
+          "fonte": "https://ouvidoria.unp.br/",
+          "status": "referência pública; verificar condições atuais do canal"
         }
       ]
     }
