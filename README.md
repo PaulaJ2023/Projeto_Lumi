@@ -1,86 +1,37 @@
 # LUMI — Sua jornada universitária, mais leve
 
-A LUMI é um **protótipo acadêmico independente de assistente virtual universitária**, desenvolvido em português brasileiro. A base inicial usa informações públicas da Universidade Potiguar (UnP), com foco de pesquisa nos estudantes da unidade Salgado Filho, em Natal/RN.
+A LUMI é um protótipo acadêmico independente de assistente virtual universitária, em português brasileiro, com foco de pesquisa nos estudantes da UnP — unidade Salgado Filho, Natal/RN. A proposta é centralizar orientações acadêmicas, financeiras e de campus em uma conversa.
 
-> **Importante:** a LUMI não é um canal oficial da UnP, não possui vínculo institucional, não consulta cadastros individuais nem consulta dados pessoais, acadêmicos ou financeiros. As respostas são orientações gerais e devem ser confirmadas nos canais oficiais.
-
-## Acessar o protótipo
-
-Abra [index.html](./index.html) por um servidor HTTP, como GitHub Pages ou servidor local, para que o navegador carregue o arquivo JSON da base.
+> A LUMI é um protótipo acadêmico, não um canal oficial da UnP. A versão atual não consulta cadastros pessoais nem executa operações institucionais.
 
 ## Agentes
-
-1. **LUMI — Generalista:** acolhe, identifica a intenção e direciona.
-2. **LUMI Acadêmica:** matrícula, RA, documentos, declarações, histórico e secretaria.
-3. **LUMI Financeira:** mensalidades, boletos, pagamentos, cobranças, bolsas e financiamentos.
-4. **LUMI Campus:** calendário, avaliações, cursos e vida acadêmica.
-
-O atendimento humano é uma rota demonstrativa de encaminhamento, não um quinto agente. Não existe transferência real nem abertura de protocolo.
+1. **LUMI Generalista:** acolhe e identifica a intenção.
+2. **LUMI Acadêmica:** ingresso, matrícula, documentos, declarações, frequência e secretaria.
+3. **LUMI Financeira:** mensalidades, boletos, pagamentos, cobranças, bolsas e negociação.
+4. **LUMI Campus:** calendário, avaliações, cursos, biblioteca, ENADE e vida acadêmica.
 
 ## Base de conhecimento
+O chat consulta `data/base-conhecimento-lumi.json`, com artigos organizados por agente, palavras-chave, respostas explicativas, fontes institucionais e status de validação. A base foi ampliada para responder dúvidas frequentes com passos práticos. Links são complementares: a LUMI deve explicar primeiro e mostrar a fonte quando solicitada ou necessária para consultar informação dinâmica.
 
-A fonte utilizada pelo chat é [data/base-conhecimento-lumi.json](./data/base-conhecimento-lumi.json). A documentação editorial completa está em [docs/base-conhecimento-lumi.md](./docs/base-conhecimento-lumi.md).
+A pesquisa Forms ainda não possui respostas. A atividade exige pelo menos 30 respostas reais; nenhum resultado foi presumido ou inventado.
 
-A base:
-- separa artigos por agente;
-- contém perguntas, palavras-chave, respostas, fontes e status de validação;
-- utiliza links institucionais públicos da UnP;
-- marca assuntos que exigem confirmação individual ou consulta a calendário/edital vigente;
-- não contém resultados do Forms, pois a pesquisa com estudantes ainda será realizada.
-
-## Pesquisa com estudantes
-
-A pesquisa de campo deverá reunir **pelo menos 30 respostas reais de estudantes da UnP**, conforme a atividade. Os resultados serão analisados separadamente das regras institucionais. As respostas do formulário ajudarão a identificar prioridades e dúvidas frequentes, mas não comprovam políticas oficiais da universidade.
-
-## Experiência do estudante
-
-- Chat responsivo e acolhedor.
-- Sugestões de assuntos e próximos passos.
-- Identificação do agente especialista.
-- Respostas carregadas do JSON.
-- Exibição da fonte para conferência.
-- Opção demonstrativa de atendimento humano.
-
-## Área administrativa — LUMI Studio
-
-O painel contém visão geral, agentes, prompts, base de conhecimento, laboratório de testes, resultados e histórico. As métricas são locais e demonstrativas. Alterações feitas nos campos do painel não são persistidas no JSON ou em banco de dados.
-
-## Tecnologias e limites atuais
-
+## Funcionamento técnico atual
 - Interface: HTML, CSS e JavaScript.
-- Base: JSON versionado no GitHub.
-- Roteamento: correspondência local por palavras-chave.
-- Não há IA generativa, Supabase, n8n, autenticação administrativa ou integração com sistemas da UnP.
-- Não consulta matrícula, notas, boletos ou pagamentos individuais.
-- Não emite documentos nem abre chamados.
+- Conteúdo: JSON versionado no GitHub.
+- Motor: busca local por expressões e palavras-chave com pontuação de compatibilidade.
+- Não há ainda IA generativa, Supabase, n8n, autenticação ou integração com dados pessoais.
+- A LUMI orienta e organiza solicitações, mas não consulta matrícula, saldo, notas ou pagamentos, não emite documentos e não abre protocolos.
 
-## Estrutura
+## Próxima evolução
+Integrar um modelo de linguagem no backend com recuperação da base de conhecimento (RAG), registro seguro das conversas e persistência dos indicadores. Segredos de API nunca devem ficar no frontend.
 
-```
-Projeto_Lumi/
-├── index.html
-├── README.md
-├── data/
-│   └── base-conhecimento-lumi.json
-└── docs/
-    ├── arquitetura.md
-    ├── base-conhecimento-lumi.md
-    ├── guia-administrativo.md
-    └── plano-de-evolucao.md
-```
-
-## Documentação
-
-- [Base de conhecimento](docs/base-conhecimento-lumi.md)
-- [Arquitetura](docs/arquitetura.md)
-- [Guia administrativo](docs/guia-administrativo.md)
-- [Plano de evolução](docs/plano-de-evolucao.md)
-
-## Fontes institucionais principais
-
+## Fontes institucionais consultadas
 - [Sou Estudante](https://www.unp.br/sou-estudante/)
-- [Calendário acadêmico](https://www.unp.br/sou-estudante/calendario/)
-- [Manual do aluno](https://www.unp.br/sou-estudante/manual-do-aluno/)
-- [Cursos](https://www.unp.br/cursos/)
 - [Sou Candidato](https://www.unp.br/sou-candidato/)
-- [LUMI]()
+- [Calendário Acadêmico](https://www.unp.br/sou-estudante/calendario/)
+- [Manual do Aluno](https://www.unp.br/sou-estudante/manual-do-aluno/)
+- [Biblioteca](https://www.unp.br/sou-estudante/biblioteca/)
+- [Colação de Grau](https://www.unp.br/sou-estudante/colacao-de-grau/)
+- [ENADE](https://www.unp.br/sou-estudante/enade/)
+- [Ouvidoria](https://ouvidoria.unp.br/)
+- [Assessoria Financeira](https://www.unp.br/sobre/assessoria-financeira/)
