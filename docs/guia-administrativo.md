@@ -43,3 +43,17 @@ Acompanhar volume de conversas, assuntos, agente acionado, taxa de resolução, 
 
 ## Histórico
 Restringir acesso, mascarar dados pessoais e estabelecer política de retenção.
+
+
+## Experiência de conversa inspirada no exemplo Bloom AI
+A interface do estudante incorpora os elementos selecionados pela equipe:
+- saudação acolhedora e linguagem simples;
+- sugestões rápidas de assuntos e próximos passos;
+- indicação de status enquanto a pergunta é classificada;
+- identificação visual do agente responsável;
+- opção de voltar ao menu inicial;
+- opção sempre acessível para orientação/atendimento humano.
+
+A opção humana, nesta versão, é apenas uma demonstração de fluxo. Ela informa que não existe integração com equipe real nem abertura automática de chamado. Para atendimento efetivo, o estudante deve usar os canais oficiais da instituição.
+
+As respostas são orientativas e não substituem informações oficiais. Não cadastrar médias, limites de faltas, multas, datas, prazos ou procedimentos sem validação documental.
