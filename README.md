@@ -12,6 +12,8 @@ A proposta nasce da realidade dos estudantes da UNP Salgado Filho: a pesquisa de
 
 ## Acessar
 Abra **[index.html](./index.html)** no navegador. O protótipo é estático e não exige instalação.
+## Acessar pesquisa 
+(https://docs.google.com/forms/d/e/1FAIpQLSfFFicaYkwS5v6d5wIOos3mm5JJpA2McIQC93cKxcObgwqB0w/viewform)
 
 ## Duas áreas
 - **Visão do aluno:** chat acolhedor, atalhos por assunto, sugestões de próximos passos, indicador de status, retorno ao menu e opção de solicitar orientação humana. O encaminhamento humano é demonstrativo e ainda não abre chamado real.
