@@ -1,70 +1,46 @@
 # Arquitetura — LUMI
 
-## 1. Escopo e natureza
+## 1. Objetivo e escopo
 
-A LUMI é um protótipo acadêmico independente de assistente virtual universitária. Sua base inicial utiliza informações públicas da Universidade Potiguar (UnP), com foco de pesquisa nos estudantes da unidade Salgado Filho, em Natal/RN.
+A LUMI é um protótipo acadêmico independente de assistente virtual universitária, baseado em informações públicas da Universidade Potiguar (UnP) e voltado à experiência de autoatendimento dos estudantes. A proposta é centralizar orientação acadêmica, financeira e de campus em uma conversa única.
 
-A LUMI **não é um canal oficial da UnP**, não possui vínculo institucional e não consulta cadastros, notas, matrículas, boletos ou pagamentos individuais. O projeto não deve ser apresentado como parceria ou serviço institucional.
+A LUMI não é um canal oficial da UnP e, nesta versão, não consulta dados pessoais nem executa operações em sistemas institucionais.
 
-## 2. Objetivo
+## 2. Agentes
 
-Ajudar estudantes a localizar orientações gerais sobre assuntos acadêmicos, financeiros e vida no campus, indicando fontes oficiais e encaminhando casos individuais para os canais adequados.
+- **LUMI Generalista:** acolhe, identifica a intenção e faz uma pergunta de esclarecimento quando necessário.
+- **LUMI Acadêmica:** matrícula, ingresso, rematrícula, RA, documentos, declarações, frequência e secretaria.
+- **LUMI Financeira:** mensalidades, boletos, pagamentos, divergências, bolsas e negociação.
+- **LUMI Campus:** calendário, avaliações, cursos, biblioteca, ENADE, colação e vida acadêmica.
 
-## 3. Fluxo atual
+## 3. Fluxo de resposta atual
 
-1. O estudante envia uma pergunta no chat web.
-2. O JavaScript normaliza o texto e compara palavras-chave com os artigos do JSON.
-3. O artigo mais compatível determina o agente especialista.
-4. A interface apresenta a resposta e a fonte cadastrada.
-5. Se não houver correspondência, a LUMI informa que não encontrou orientação segura e aponta a página Sou Estudante.
-6. A opção de atendimento humano apenas demonstra o encaminhamento; não transfere a conversa nem cria protocolo.
+1. O estudante escreve livremente.
+2. O JavaScript normaliza a pergunta e compara termos e expressões com perguntas e palavras-chave dos artigos.
+3. Um mecanismo de pontuação seleciona o artigo mais compatível, exigindo pontuação mínima para evitar encaminhamentos aleatórios.
+4. A resposta é apresentada em linguagem natural, com orientação prática.
+5. A fonte institucional fica disponível quando o aluno pede a referência ou quando precisa consultar uma informação dinâmica.
+6. Quando a pergunta é ambígua, a LUMI pede um esclarecimento; quando envolve dados individuais, explica o limite e ajuda a organizar o pedido.
 
-## 4. Agentes
+## 4. Base de conhecimento
 
-| Agente | Responsabilidade |
-|---|---|
-| Generalista | Acolhimento, identificação de intenção e encaminhamento |
-| LUMI Acadêmica | Matrícula, RA, documentos, declarações, histórico e secretaria |
-| LUMI Financeira | Mensalidades, boletos, pagamentos, cobranças, bolsas e financiamentos |
-| LUMI Campus | Calendário, avaliações, cursos e vida acadêmica |
+Arquivo operacional: `data/base-conhecimento-lumi.json`.
 
-Atendimento humano é uma rota de escalonamento, não um agente especialista.
+Cada artigo possui identificador, pergunta, palavras-chave, resposta, fonte e status de validação. O conteúdo é separado por agente. Calendários, editais e regras variáveis devem ser conferidos na versão aplicável ao curso, currículo, modalidade e período.
 
-## 5. Componentes
+A pesquisa Forms com estudantes será incorporada somente após a coleta real. Não inserir percentuais ou necessidades presumidas.
 
-- **Frontend:** `index.html`, com HTML, CSS e JavaScript.
-- **Base operacional:** `data/base-conhecimento-lumi.json`.
-- **Documentação editorial:** `docs/base-conhecimento-lumi.md`.
-- **Roteamento:** busca local por palavras-chave.
-- **Evolução planejada:** n8n para orquestração, modelo de linguagem com recuperação de conteúdo e Supabase para autenticação, artigos, conversas e métricas. Docker poderá ser usado para empacotamento.
+## 5. Limites técnicos
 
-## 6. Modelo de artigo
+A versão atual usa HTML, CSS, JavaScript e JSON local. O motor é baseado em regras e recuperação de artigos; ainda não há modelo generativo, banco de dados, autenticação, integração com registros acadêmicos/financeiros ou transferência real para atendentes. O painel administrativo é demonstrativo e não persiste edições.
 
-Cada item do JSON possui:
-- `id`: identificador único;
-- `pergunta`: pergunta principal;
-- `palavras_chave`: termos para localizar o artigo;
-- `resposta`: orientação exibida no chat;
-- `fonte`: link institucional para conferência;
-- `status`: condição editorial/necessidade de validação.
+Para responder perguntas abertas além dos artigos cadastrados, a próxima evolução técnica é integrar um modelo de linguagem no backend com recuperação da base (RAG), preservando fontes e limites de segurança. Chaves de API nunca devem ficar no frontend.
 
-A estrutura é `categorias → categoria → itens`. Cada categoria também identifica o agente responsável.
-
-## 7. Segurança e governança
+## 6. Segurança e qualidade
 
 - Não solicitar senhas, tokens, dados bancários ou documentos pessoais.
-- Não inserir chaves de API no frontend.
-- Não inventar datas, valores, prazos, documentos obrigatórios ou políticas.
-- Não declarar que uma operação individual foi concluída.
-- Calendários, editais, manuais e procedimentos devem ser conferidos em suas versões vigentes.
-- Informações dependentes de contrato, modalidade, currículo ou cadastro devem ser encaminhadas ao canal oficial.
-- Registrar fonte, status e data de revisão de cada artigo.
-- Separar regras institucionais de relatos e necessidades apontados pelos participantes da pesquisa.
-
-## 8. Integração futura
-
-A versão integrada deverá proteger o painel com autenticação e autorização, manter segredos no backend, aplicar políticas de acesso no banco, limitar retenção de conversas e minimizar dados pessoais. A recuperação de conteúdo deverá retornar fontes e versões dos artigos.
-
-## 9. Limitações atuais
-
-O protótipo não usa IA generativa e não consulta sistemas acadêmicos ou financeiros. Seleciona respostas do JSON por palavras-chave. Não emite documentos, confirma pagamentos, altera matrícula, consulta notas, abre chamados ou transfere conversas para atendentes. O painel administrativo não persiste alterações.
+- Não inventar datas, taxas, prazos, regras ou requisitos.
+- Diferenciar orientação geral de consulta individual.
+- Pedir contexto quando currículo, modalidade, curso ou período alterarem a resposta.
+- Responder primeiro; usar links como referência complementar, não como substituto da explicação.
+- Testar perguntas reais e registrar lacunas para atualização da base.
