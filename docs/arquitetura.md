@@ -1,56 +1,56 @@
-# Arquitetura proposta — LUMI
+# Arquitetura proposta — LUMI / Universidade Aurora
 
-## Contexto e escopo
-A LUMI é uma proposta acadêmica criada por estudantes da **UNP — Unidade Salgado Filho**, a partir de uma pesquisa de campo com alunos reais dessa unidade. A pesquisa deve reunir no mínimo 30 respostas e identificar necessidades de autoatendimento, conforme o enunciado do professor.
+## 1. Escopo
 
-O enunciado também estabelece um **case fictício**, “Instituto Horizonte — Central de Atendimento ao Aluno”. Para manter aderência à atividade, esse cenário pode ser usado na demonstração técnica, nos exemplos e nos dados simulados. A UNP Salgado Filho é o contexto real da pesquisa e inspiração; o Instituto Horizonte é o cenário fictício do case. A LUMI não é um serviço oficial da UNP.
+A LUMI é uma assistente virtual acadêmica concebida para a **Universidade Aurora (UVA)**, instituição inteiramente fictícia criada para a demonstração do projeto. Seu campus é o Campus Horizonte; o portal do estudante é o Portal Aurora; o ambiente virtual é o Aurora Online.
 
-## Objetivo
-Oferecer atendimento universitário simples para estudantes e uma área administrativa para configurar, testar e acompanhar a assistente.
+Nenhuma instituição, marca, política ou sistema real está representado.
 
-## Fluxo lógico
-1. O estudante envia uma pergunta pela interface web.
+## 2. Objetivo
+
+Ajudar estudantes a encontrar orientações sobre serviços acadêmicos, financeiros e vida no campus, com linguagem acolhedora e encaminhamento seguro quando a base não for suficiente.
+
+## 3. Fluxo lógico
+
+1. O estudante envia uma pergunta pelo chat web.
 2. O agente generalista identifica a intenção.
-3. A solicitação é encaminhada ao agente especialista (Acadêmica, Financeira ou Campus).
-4. O agente consulta a base de conhecimento pertinente.
-5. A resposta retorna ao chat.
-6. Conversa, assunto, resultado e eventual encaminhamento são registrados para análise.
-7. Se a informação não existir ou não for confiável, a LUMI informa a limitação e orienta atendimento humano.
+3. A pergunta é direcionada a Acadêmica, Financeira ou Campus.
+4. O especialista consulta os artigos correspondentes no JSON.
+5. A LUMI apresenta a resposta e sugere próximos passos.
+6. Quando a informação não existe ou depende de cadastro individual, a LUMI explica o limite e orienta contato com o setor responsável.
+7. A opção humana demonstra o encaminhamento à Central de Relacionamento Aurora, sem transferência real na versão atual.
 
-## Componentes planejados
-- **Frontend web:** interface do estudante e LUMI Studio administrativo.
-- **n8n:** orquestra classificação, roteamento e chamadas de IA.
-- **Modelo de linguagem:** gera respostas a partir de instruções e conteúdo recuperado.
-- **Supabase:** autenticação, conversas, agentes, prompts, documentos e eventos analíticos.
-- **Base de conhecimento:** conteúdos por domínio, com fonte, responsável e data de revisão.
-- **Docker:** opção para empacotar serviços próprios.
+## 4. Agentes e responsabilidades
 
-## Agentes
-| Agente | Responsabilidade |
+| Agente | Escopo |
 |---|---|
-| Generalista | Boas-vindas, intenção, triagem e roteamento |
-| Acadêmica | Matrícula, documentos, declarações e secretaria |
-| Financeira | Mensalidades, pagamentos e orientações financeiras |
-| Campus | Calendário, avaliações, cursos e vida acadêmica |
+| Generalista | Acolhimento, identificação de intenção e roteamento |
+| Acadêmica | Matrícula, rematrícula, documentos, declarações, histórico, protocolos e secretaria |
+| Financeira | Mensalidades, pagamentos, cobranças, bolsas, negociação, extrato e estorno |
+| Campus | Calendário, avaliações, notas, frequência, cursos, disciplinas, biblioteca, apoio e Aurora Online |
 
-Atendimento humano é um mecanismo de escalonamento.
+## 5. Componentes
 
-## Pesquisa de campo e uso dos dados
-- Aplicar o formulário a pelo menos 30 estudantes reais da UNP — Salgado Filho.
-- A pergunta central deve investigar o que gostariam de encontrar no autoatendimento via WhatsApp da UNP, conforme o professor.
-- Apresentar resultados agregados, sem expor nomes, matrículas, telefones ou outras informações pessoais.
-- Usar os achados para priorizar temas e funcionalidades; não inventar respostas nem percentuais.
-- Separar claramente resultados reais da pesquisa e dados simulados do protótipo.
+- **Frontend:** interface web em HTML, CSS e JavaScript.
+- **Base de conhecimento:** `data/base-conhecimento-lumi.json`.
+- **Roteamento atual:** busca local por palavras-chave.
+- **Evolução planejada:** n8n para orquestração; modelo de linguagem com recuperação de conteúdo; Supabase para autenticação, artigos, conversas e métricas; Docker opcional para empacotamento.
 
-## Segurança e governança
-- Exigir autenticação e autorização para o painel administrativo.
-- Nunca expor chaves de API no navegador ou no repositório.
-- Não solicitar nem armazenar senhas de estudantes.
-- Minimizar dados pessoais e definir retenção de conversas.
-- Registrar fontes e datas de atualização da base.
-- Não inventar datas, valores, prazos ou políticas da UNP.
-- Só incluir conteúdo institucional real após validação em fonte oficial ou por responsável autorizado.
-- Oferecer encaminhamento humano quando não houver resposta confiável.
+## 6. Governança da informação
 
-## Limite do protótipo
-O `index.html` simula roteamento por palavras-chave. Não há conexão com n8n, Supabase ou provedor de IA.
+A base é a fonte de verdade do universo ficcional. Cada artigo deve ter identificador, pergunta, palavras-chave, resposta, fonte e status. Regras específicas só podem ser alteradas de forma coordenada para evitar contradições entre artigos e respostas.
+
+A LUMI não deve inventar datas de calendário, valores individuais, notas, frequência ou situação cadastral. Esses dados seriam consultados em sistemas integrados numa versão futura; até lá, o estudante deve consultar o Portal Aurora.
+
+## 7. Segurança
+
+- Não solicitar senhas, tokens, dados bancários ou documentos pessoais pelo chat.
+- Não colocar chaves de API no frontend.
+- Proteger o painel com autenticação e autorização na versão integrada.
+- Minimizar dados armazenados e definir política de retenção.
+- Registrar versões e datas de revisão dos artigos.
+- Informar claramente que o cenário é fictício.
+
+## 8. Limitações atuais
+
+O protótipo não usa IA generativa e não consulta sistemas acadêmicos ou financeiros. O chat seleciona respostas do JSON por correspondência de palavras-chave. Não emite documentos, confirma pagamentos, altera matrícula, consulta notas ou abre chamados. O painel administrativo não persiste alterações.
