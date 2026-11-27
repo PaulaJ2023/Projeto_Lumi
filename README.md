@@ -18,7 +18,8 @@ A pesquisa Forms ainda não possui respostas. A atividade exige pelo menos 30 re
 ## Funcionamento técnico atual
 - Interface: HTML, CSS e JavaScript.
 - Conteúdo: JSON versionado no GitHub.
-- Motor: busca local por expressões e palavras-chave com pontuação de compatibilidade.
+- Motor: busca local por expressões e palavras-chave com pontuação de compatibilidade; não é IA generativa.
+- Painel: contagens de perguntas, assuntos e estimativa lexical de sentimento apenas na sessão atual; não persiste dados nem representa resultados do Forms.
 - Não há ainda IA generativa, Supabase, n8n, autenticação ou integração com dados pessoais.
 - A LUMI orienta e organiza solicitações, mas não consulta matrícula, saldo, notas ou pagamentos, não emite documentos e não abre protocolos.
 
