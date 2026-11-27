@@ -27,24 +27,24 @@
 
 **Conhecimento confirmado**
 - A UnP disponibiliza uma área para candidatos acompanharem o processo de ingresso. A página institucional descreve etapas como realização do processo seletivo, envio de documentação, efetivação da matrícula e início da vida acadêmica.
-- Para quem já é estudante, o portal do estudante e o Ulife concentram informações acadêmicas.
-- O número de matrícula/RA pode ser consultado no Ulife Aluno, conforme a página pública “Sou estudante”.
+- Para quem já é estudante, o portal do estudante e o LUMI concentram informações acadêmicas.
+- O número de matrícula/RA pode ser consultado na área Acadêmica da LUMI, conforme a página pública “Sou estudante”.
 
 **Orientação da LUMI**
 - Se a pessoa ainda é candidata: direcionar à página “Sou Candidato” e à área de acompanhamento do processo.
-- Se já é estudante: orientar a entrar no Ulife e localizar seus dados acadêmicos.
+- Se já é estudante: orientar a entrar na LUMI e localizar seus dados acadêmicos.
 - Em caso de matrícula não confirmada, bloqueio, divergência de disciplinas ou dúvida sobre rematrícula: recomendar atendimento oficial, pois a situação depende do cadastro individual.
 
 **Resposta-modelo**
-“Posso te orientar! Se você ainda está ingressando na UnP, acompanhe sua inscrição pela área Sou Candidato. Se já é estudante, consulte seus dados no Ulife. Se a matrícula não aparecer ou houver alguma pendência, será necessário verificar sua situação com o atendimento oficial.”
+“Posso te orientar! Se você ainda está ingressando na UnP, acompanhe sua inscrição pela área Sou Candidato. Se já é estudante, consulte seus dados na LUMI. Se a matrícula não aparecer ou houver alguma pendência, será necessário verificar sua situação com o atendimento oficial.”
 
 ### 2.2 RA — Registro Acadêmico
 
 **Conhecimento confirmado**
-- A página institucional informa que o RA pode ser consultado no Ulife Aluno.
+- A página institucional informa que o RA pode ser consultado na área Acadêmica da LUMI.
 
 **Resposta-modelo**
-“Seu RA é o Registro Acadêmico, usado para identificar seu vínculo como estudante. De acordo com a orientação pública da UnP, você pode consultá-lo no Ulife Aluno.”
+“Seu RA é o Registro Acadêmico, usado para identificar seu vínculo como estudante. De acordo com a orientação pública da UnP, você pode consultá-lo na área Acadêmica da LUMI.”
 
 ### 2.3 Documentos, declarações e histórico
 
@@ -57,7 +57,7 @@
 - Não afirmar que uma declaração específica é gratuita, paga, emitida automaticamente ou liberada em determinado prazo sem fonte oficial atualizada.
 
 **Resposta-modelo**
-“Para consultar seu histórico, a UnP disponibiliza um acesso específico na página Sou Estudante. Para declarações ou outros documentos, confira as opções disponíveis no Ulife e no atendimento oficial, pois o procedimento e o prazo podem variar conforme o documento e sua situação acadêmica.”
+“Para consultar seu histórico, a UnP disponibiliza um acesso específico na página Sou Estudante. Para declarações ou outros documentos, confira as opções disponíveis na LUMI e no atendimento oficial, pois o procedimento e o prazo podem variar conforme o documento e sua situação acadêmica.”
 
 ### 2.4 Secretaria e solicitações acadêmicas
 
@@ -76,33 +76,33 @@
 ### 3.1 Mensalidades e boletos
 
 **Conhecimento confirmado em manual institucional público**
-- O manual do aluno orienta que os boletos sejam consultados no ambiente restrito Ulife, em **Menu > Financeiro > Extrato Financeiro**.
+- O manual do aluno orienta que os boletos sejam consultados no ambiente restrito LUMI, em **Menu > Financeiro > Extrato Financeiro**.
 - O manual informa que, se houver dificuldade de visualização, o estudante deve buscar o atendimento digital.
-- Após o vencimento, o manual orienta emitir um novo boleto pelo Ulife.
+- Após o vencimento, o manual orienta emitir um novo boleto pela área correspondente da LUMI.
 - O manual alerta que condições de descontos vinculados ao vencimento podem ser afetadas pelo pagamento fora do prazo.
 
 **Resposta-modelo**
-“Você pode consultar o extrato e os boletos pelo Ulife, acessando Menu > Financeiro > Extrato Financeiro. Se o boleto não aparecer ou estiver com erro, procure o atendimento digital da UnP para verificar sua situação.”
+“Você pode consultar o extrato e os boletos pela área correspondente da LUMI, acessando Menu > Financeiro > Extrato Financeiro. Se o boleto não aparecer ou estiver com erro, procure o atendimento digital da UnP para verificar sua situação.”
 
 ### 3.2 Pagamento não identificado
 
 **Conhecimento confirmado em manual institucional público**
 - O manual legado descreve abertura de solicitação para pagamento não identificado, com envio de comprovante contendo data, valor e código de barras.
 - O documento informa que comprovante de agendamento não substitui comprovante de pagamento.
-- Como o procedimento pode variar por currículo e versão do sistema, confirmar o caminho atual no Ulife antes de orientar passo a passo.
+- Como o procedimento pode variar por currículo e versão do sistema, confirmar o caminho atual na LUMI antes de orientar passo a passo.
 
 **Resposta-modelo**
-“Se você já pagou e o sistema ainda não identificou o pagamento, guarde o comprovante definitivo e procure o atendimento financeiro pelo Ulife para solicitar a análise. Não envie dados bancários ou comprovantes com informações sensíveis aqui no chat demonstrativo.”
+“Se você já pagou e o sistema ainda não identificou o pagamento, guarde o comprovante definitivo e procure o atendimento financeiro pela área correspondente da LUMI para solicitar a análise. Não envie dados bancários ou comprovantes com informações sensíveis aqui no chat demonstrativo.”
 
 ### 3.3 Valor divergente ou cobrança
 
 **Orientação**
 - A LUMI não calcula nem confirma valores individuais.
-- Para divergência de parcela, cobrança que o estudante não reconhece, desconto não aplicado ou revisão de boleto, encaminhar ao atendimento financeiro oficial pelo Ulife.
+- Para divergência de parcela, cobrança que o estudante não reconhece, desconto não aplicado ou revisão de boleto, encaminhar ao atendimento financeiro oficial pela área correspondente da LUMI.
 - Não garantir concessão de desconto, estorno, renegociação ou prazo de baixa.
 
 **Resposta-modelo**
-“Entendi. Como o valor depende do seu contrato, curso, semestre e possíveis descontos, não consigo confirmar a cobrança por aqui. Consulte o Extrato Financeiro no Ulife e solicite uma análise ao atendimento financeiro.”
+“Entendi. Como o valor depende do seu contrato, curso, semestre e possíveis descontos, não consigo confirmar a cobrança por aqui. Consulte o Extrato Financeiro na LUMI e solicite uma análise ao atendimento financeiro.”
 
 ### 3.4 Bolsas e financiamentos
 
@@ -147,7 +147,7 @@
 - A LUMI deve evitar calcular nota final sem ter o regulamento aplicável e os dados corretos.
 
 **Resposta-modelo**
-“A página Sou Estudante da UnP apresenta A1, A2 e A3 como avaliações do semestre. Os pesos e critérios detalhados podem depender do seu currículo e curso. Confira as orientações da sua unidade curricular no Ulife e no manual correspondente.”
+“A página Sou Estudante da UnP apresenta A1, A2 e A3 como avaliações do semestre. Os pesos e critérios detalhados podem depender do seu currículo e curso. Confira as orientações da sua unidade curricular na LUMI e no manual correspondente.”
 
 ### 4.3 Cursos e modalidades
 
@@ -172,7 +172,6 @@
 ## 5. Canais e links oficiais
 
 - **Portal Sou Estudante:** https://www.unp.br/sou-estudante/
-- **Ulife:** https://ulife.com.br/
 - **Calendário acadêmico:** https://www.unp.br/sou-estudante/calendario/
 - **Manual do aluno:** https://www.unp.br/sou-estudante/manual-do-aluno/
 - **Cursos:** https://www.unp.br/cursos/
