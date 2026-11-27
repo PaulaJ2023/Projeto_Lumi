@@ -32,7 +32,7 @@ A pesquisa Forms com estudantes será incorporada somente após a coleta real. N
 
 ## 5. Limites técnicos
 
-A versão atual usa HTML, CSS, JavaScript e JSON local. O motor é baseado em regras e recuperação de artigos; ainda não há modelo generativo, banco de dados, autenticação, integração com registros acadêmicos/financeiros ou transferência real para atendentes. O painel administrativo é demonstrativo e não persiste edições.
+A versão atual usa HTML, CSS, JavaScript e JSON local. O motor é baseado em regras e recuperação de artigos por palavras-chave; ainda não há modelo generativo, banco de dados, autenticação, integração com registros acadêmicos/financeiros ou transferência real para atendentes. O painel apresenta contagens das perguntas enviadas e uma estimativa lexical de sentimento somente durante a sessão atual. A estimativa considera apenas mensagens dos alunos, pode errar com ironia, negação e contexto e não representa resultado da pesquisa Forms. Edições no painel são rascunhos visuais e não alteram o JSON.
 
 Para responder perguntas abertas além dos artigos cadastrados, a próxima evolução técnica é integrar um modelo de linguagem no backend com recuperação da base (RAG), preservando fontes e limites de segurança. Chaves de API nunca devem ficar no frontend.
 
