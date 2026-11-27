@@ -31,12 +31,12 @@ let chats=[],testRuns=0,unknown=0,kb=0,knowledgeBase=null;
 fetch('./data/base-conhecimento-lumi.json?v=3.0').then(r=>{if(!r.ok)throw new Error('Base indisponível');return r.json()}).then(data=>{knowledgeBase=data;renderKnowledgeBase()}).catch(()=>{document.getElementById('kbCount').textContent='Base não carregada — abra o site pelo GitHub Pages ou servidor local';});
 function mode(m){document.getElementById('student').classList.toggle('hidden',m!=='student');document.getElementById('admin').classList.toggle('hidden',m!=='admin');document.getElementById('studentMode').classList.toggle('active',m==='student');document.getElementById('adminMode').classList.toggle('active',m==='admin');scrollTo({top:0,behavior:'smooth'})}
 function tab(t,b){document.querySelectorAll('[id^="tab-"]').forEach(e=>e.classList.add('hidden'));document.getElementById('tab-'+t).classList.remove('hidden');document.querySelectorAll('.side button').forEach(e=>e.classList.remove('sel'));b.classList.add('sel')}
-function normalizeText(v){return String(v||'').toLocaleLowerCase('pt-BR').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').replace(/[^a-z0-9\\s]/g,' ').replace(/\\s+/g,' ').trim()}
+function normalizeText(v){return String(v||'').toLocaleLowerCase('pt-BR').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim()}
 function route(q){
  const s=normalizeText(q), tokens=s.split(' ').filter(t=>t.length>2);
  if(knowledgeBase){
   let all=[];
-  Object.entries(knowledgeBase.categorias).forEach(([category,group])=>group.itens.forEach(item=>all.push({category,item})));
+  Object.entries(knowledgeBase.categorias).forEach(([category,group])=>group.itens.forEach(item=>all.push({category,agent:group.agente||category,item})));
   let ranked=all.map(x=>{
    const phrases=[x.item.pergunta,...(x.item.palavras_chave||[])].map(normalizeText).filter(Boolean);
    let score=0;
@@ -51,10 +51,10 @@ function route(q){
   }).sort((a,b)=>b.score-a.score);
   const hit=ranked[0], second=ranked[1];
   if(hit && hit.score>=5 && (!second || hit.score-second.score>=0.5)){
-   return {agent:hit.item.agente||hit.category,answer:hit.item.resposta,source:hit.item.fonte,matched:true,article:hit.item.id};
+   return {agent:hit.agent,answer:hit.item.resposta,source:hit.item.fonte,matched:true,article:hit.item.id};
   }
  }
- return {agent:'LUMI',answer:'Quero entender direitinho para não te orientar errado. 💜 Você pode me contar um pouco mais? Por exemplo: sua dúvida é sobre matrícula, documentos, mensalidade, pagamento, calendário ou avaliações? Se preferir, descreva o que aconteceu e eu ajudo a organizar os próximos passos.',source:'',matched:false,article:null};
+ return {agent:'LUMI Generalista',answer:'Quero entender direitinho para não te orientar errado. 💜 Você pode me contar um pouco mais? Por exemplo: sua dúvida é sobre matrícula, documentos, mensalidade, pagamento, calendário ou avaliações? Se preferir, descreva o que aconteceu e eu ajudo a organizar os próximos passos.',source:'',matched:false,article:null};
 }
 function renderKnowledgeBase(){if(!knowledgeBase)return;let rows=document.getElementById('kbRows');rows.innerHTML='';let count=0;Object.entries(knowledgeBase.categorias).forEach(([category,group])=>group.itens.forEach(item=>{count++;let tr=document.createElement('tr');[category,item.pergunta].forEach(v=>{let td=document.createElement('td');td.textContent=v;tr.appendChild(td)});let td=document.createElement('td');td.textContent=item.status||'Referência pública UnP';tr.appendChild(td);rows.appendChild(tr)}));kb=count;document.getElementById('kbCount').textContent=count+' artigos carregados do arquivo JSON';}
 function append(text,cls){let d=document.createElement('div');d.className='msg '+(cls||'');d.textContent=text;document.getElementById('studentMessages').appendChild(d);document.getElementById('studentMessages').scrollTop=9999}
