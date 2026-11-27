@@ -12,12 +12,12 @@ O chat carrega esse JSON e localiza artigos por palavras-chave. A resposta inclu
 
 ### LUMI Acadêmica
 - Acompanhamento de matrícula e ingresso.
-- Consulta do RA no Ulife Aluno.
+- Consulta do RA na área Acadêmica da LUMI.
 - Documentos, declarações e histórico escolar.
 - Solicitações acadêmicas e secretaria.
 
 ### LUMI Financeira
-- Consulta de boletos e extrato financeiro no Ulife.
+- Consulta de boletos e extrato financeiro na LUMI.
 - Pagamento não identificado.
 - Boleto vencido e atualização de segunda via.
 - Divergência de valores, bolsas e financiamentos.
@@ -36,7 +36,7 @@ O chat carrega esse JSON e localiza artigos por palavras-chave. A resposta inclu
 - https://www.unp.br/cursos/
 - https://www.unp.br/cursos/graduacao/
 - https://www.unp.br/sou-estudante/manual-do-aluno/
-- https://ulife.com.br/
+- 
 
 ## Limites e validações
 
