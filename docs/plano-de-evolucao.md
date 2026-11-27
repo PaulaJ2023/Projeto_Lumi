@@ -1,44 +1,44 @@
-# Plano de evolução
+# Plano de evolução — LUMI
 
 ## Etapa 1 — Protótipo atual
-- [x] Visão do aluno em página web.
-- [x] Alternância para área administrativa.
-- [x] Chat com tom acolhedor, atalhos, sugestões de próximos passos e menu.
-- [x] Opção demonstrativa de orientação humana, com aviso claro de que não há transferência real.
-- [x] Indicador de status e identificação do assunto/área.
-- [x] Telas demonstrativas de agentes, prompts, conhecimento, testes, resultados e histórico.
-- [x] Identidade visual em português brasileiro.
-- [ ] Testes de usabilidade com estudantes.
+- [x] Interface web responsiva em português brasileiro.
+- [x] Identidade visual e tom acolhedor.
+- [x] Visão do estudante e área administrativa.
+- [x] Quatro papéis: Generalista, Acadêmica, Financeira e Campus.
+- [x] Base JSON organizada por domínio.
+- [x] Sugestões rápidas, status e identificação do agente.
+- [x] Opção demonstrativa de encaminhamento humano.
+- [x] Cenário institucional fictício: Universidade Aurora (UVA).
 
-## Etapa 2 — Pesquisa na UNP Salgado Filho
-- [ ] Elaborar formulário sobre o que estudantes desejam em um canal de autoatendimento via WhatsApp da UNP.
-- [ ] Aplicar a pesquisa a pelo menos 30 estudantes reais da UNP — Unidade Salgado Filho.
-- [ ] Consolidar respostas reais, sem fabricar dados ou percentuais.
-- [ ] Identificar dúvidas mais frequentes e funcionalidades prioritárias.
-- [ ] Registrar método, perfil geral da amostra e limitações, preservando anonimato.
-- [ ] Separar os achados da pesquisa do case fictício Instituto Horizonte.
+## Etapa 2 — Aprimorar a base
+- [x] Criar universo institucional próprio para a Universidade Aurora.
+- [x] Definir Campus Horizonte, Portal Aurora, Aurora Online e setores.
+- [x] Criar artigos de matrícula, documentos, secretaria, mensalidades, pagamentos, calendário, avaliações, cursos e vida acadêmica.
+- [ ] Criar perguntas alternativas e sinônimos para cada artigo.
+- [ ] Criar conjunto de testes de regressão para cada agente.
+- [ ] Revisar consistência e cobertura da base com usuários de teste.
 
-## Etapa 3 — Preparar conteúdo
-- [ ] Consolidar dúvidas frequentes e priorizar funcionalidades.
-- [ ] Criar base inicial para o cenário fictício Instituto Horizonte, conforme o enunciado.
-- [ ] Caso sejam incluídas informações da UNP, validar cada resposta em fonte oficial ou com responsável autorizado.
-- [ ] Registrar fonte, data de revisão e responsável por cada conteúdo.
-
-## Etapa 4 — Integração
+## Etapa 3 — Integração
 - [ ] Criar projeto Supabase e esquema de dados.
-- [ ] Implementar autenticação e papéis administrativos.
+- [ ] Implementar autenticação e perfis administrativos.
 - [ ] Criar workflows n8n para entrada, classificação, roteamento e resposta.
-- [ ] Conectar o modelo de linguagem com prompts versionados.
-- [ ] Conectar recuperação de conteúdo à base de conhecimento.
-- [ ] Registrar conversas e eventos de avaliação.
+- [ ] Conectar modelo de linguagem com prompts versionados.
+- [ ] Implementar recuperação de artigos com fontes e controle de versão.
+- [ ] Registrar conversas e avaliações com minimização de dados.
 
-## Etapa 5 — Validação e entrega
-- [ ] Montar conjunto de perguntas reais anonimizadas.
-- [ ] Medir qualidade das respostas e encaminhamentos.
-- [ ] Testar perguntas fora do escopo e tentativas de induzir respostas inventadas.
+## Etapa 4 — Validação
+- [ ] Testar perguntas conhecidas, ambíguas e fora do escopo.
+- [ ] Testar tentativas de induzir a IA a inventar regras.
+- [ ] Testar pedidos de dados individuais e informações sensíveis.
+- [ ] Medir precisão do roteamento, utilidade e taxa de encaminhamento.
 - [ ] Revisar acessibilidade, responsividade e heurísticas de Nielsen.
-- [ ] Preparar apresentação de 10 a 15 minutos com demonstração ao vivo.
-- [ ] Entregar relatório técnico com arquitetura, base, testes, limitações e próximos passos.
+
+## Etapa 5 — Entrega
+- [ ] Preparar demonstração de 10 a 15 minutos.
+- [ ] Demonstrar perguntas para os três agentes especialistas.
+- [ ] Explicar a natureza fictícia da Universidade Aurora.
+- [ ] Documentar arquitetura, base, testes, limitações e próximos passos.
 
 ## Critério de integração
-Alterar um prompt ou artigo no painel deverá refletir no atendimento real, com controle de acesso, registro de versão e possibilidade de teste antes da publicação.
+
+Uma alteração em artigo ou prompt deverá ser versionada, revisada e testada antes de afetar o atendimento. A interface deverá indicar quando a resposta vem da base e quando não há informação suficiente.
