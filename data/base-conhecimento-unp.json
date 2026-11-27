@@ -1,8 +1,8 @@
 {
   "nome": "Base de conhecimento LUMI — UNP Unidade Salgado Filho",
-  "versao": "1.0",
+  "versao": "1.1",
   "ultima_revisao": "2026-11-27",
-  "contexto": "Base de orientação para protótipo acadêmico independente. Não é canal oficial da UNP. As páginas públicas consultadas são institucionais e podem apresentar regras gerais ou específicas por modalidade/currículo.",
+  "contexto": "Base de orientação para protótipo acadêmico independente. Não é canal oficial da UNP. As páginas públicas consultadas são institucionais e podem apresentar regras gerais ou específicas por modalidade/currículo. Conteúdo revisado com páginas públicas oficiais consultadas em 27/11/2026. Informações operacionais e regras individualizadas devem ser confirmadas no Ulife.",
   "regras_do_agente": [
     "Responder em português brasileiro, com acolhimento, clareza e objetividade.",
     "Usar somente informações registradas nesta base e indicar a fonte.",
@@ -19,7 +19,12 @@
         {
           "id": "acad-ra",
           "pergunta": "Como descubro meu número de matrícula ou RA?",
-          "palavras_chave": ["ra", "registro academico", "numero de matricula", "matricula"],
+          "palavras_chave": [
+            "ra",
+            "registro academico",
+            "numero de matricula",
+            "matricula"
+          ],
           "resposta": "O RA (Registro Acadêmico) pode ser consultado no Ulife Aluno, conforme a orientação da página oficial Sou estudante da UNP. Acesse o portal do estudante e procure seus dados acadêmicos. Se não conseguir localizar, utilize o atendimento oficial da instituição.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
@@ -27,7 +32,13 @@
         {
           "id": "acad-nova-matricula",
           "pergunta": "Como faço uma matrícula nova?",
-          "palavras_chave": ["nova matricula", "ingressar", "vestibular", "matricula inicial", "documentos para matricula"],
+          "palavras_chave": [
+            "nova matricula",
+            "ingressar",
+            "vestibular",
+            "matricula inicial",
+            "documentos para matricula"
+          ],
           "resposta": "A página oficial da UNP orienta que o ingresso envolve processo seletivo, envio da documentação após a aprovação e efetivação da matrícula. A documentação indicada para candidatos inclui certificado de conclusão do ensino médio, histórico escolar do ensino médio, documento oficial de identidade e CPF; diploma profissionalizante, quando aplicável; e passaporte com visto válido para candidatos estrangeiros. Confira as instruções e exigências atualizadas na Área do Candidato.",
           "fonte": "https://www.unp.br/sou-candidato/",
           "status": "publicado",
@@ -36,7 +47,14 @@
         {
           "id": "acad-documentos",
           "pergunta": "Quais documentos são exigidos para matrícula?",
-          "palavras_chave": ["documentos", "documentacao", "certificado", "historico escolar", "cpf", "identidade"],
+          "palavras_chave": [
+            "documentos",
+            "documentacao",
+            "certificado",
+            "historico escolar",
+            "cpf",
+            "identidade"
+          ],
           "resposta": "Para candidatos de graduação, a página oficial da UNP lista: certificado de conclusão do ensino médio ou equivalente; histórico escolar do ensino médio; documento oficial de identidade; CPF; diploma, caso o curso seja profissionalizante; e passaporte com visto válido, para candidatos estrangeiros. A lista pode variar conforme a forma de ingresso e a situação do candidato. Consulte a Área do Candidato para confirmar o que se aplica ao seu processo.",
           "fonte": "https://www.unp.br/sou-candidato/",
           "status": "publicado"
@@ -44,7 +62,13 @@
         {
           "id": "acad-declaracoes",
           "pergunta": "Como solicito uma declaração ou histórico?",
-          "palavras_chave": ["declaracao", "atestado", "historico", "documento academico", "comprovante de matricula"],
+          "palavras_chave": [
+            "declaracao",
+            "atestado",
+            "historico",
+            "documento academico",
+            "comprovante de matricula"
+          ],
           "resposta": "A página pública consultada não detalha todos os tipos de declaração, prazos ou taxas. Para solicitar uma declaração, histórico ou outro documento acadêmico, entre no Ulife e consulte a área de atendimento/solicitações disponível para seu perfil. Se o serviço não aparecer, fale com a Central de Atendimento ao Aluno. Confirme prazo, formato e eventual cobrança diretamente no canal oficial.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado",
@@ -53,7 +77,12 @@
         {
           "id": "acad-secretaria",
           "pergunta": "Como entro em contato com a secretaria ou atendimento acadêmico?",
-          "palavras_chave": ["secretaria", "atendimento academico", "falar com atendente", "central de atendimento"],
+          "palavras_chave": [
+            "secretaria",
+            "atendimento academico",
+            "falar com atendente",
+            "central de atendimento"
+          ],
           "resposta": "A página Sou estudante informa opções de atendimento pelo Chat do Portal do Aluno, pelo Fale com a Gente no Ulife (menu Meu Atendimento) e também menciona telefone da Ouvidoria e WhatsApp. Consulte a própria página ou o Ulife para acessar os canais vigentes e verificar horários atualizados.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
@@ -61,7 +90,12 @@
         {
           "id": "acad-rematricula",
           "pergunta": "Como funciona a rematrícula?",
-          "palavras_chave": ["rematricula", "renovacao de matricula", "matricula semestre", "rematricular"],
+          "palavras_chave": [
+            "rematricula",
+            "renovacao de matricula",
+            "matricula semestre",
+            "rematricular"
+          ],
           "resposta": "As regras de rematrícula podem depender do currículo, calendário e situação acadêmico-financeira do estudante. Consulte o calendário acadêmico vigente e as orientações exibidas no Ulife. O Manual do Aluno descreve regras específicas por currículo; por isso, confirme qual manual se aplica ao seu vínculo antes de tomar uma decisão.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "fontes_adicionais": [
@@ -69,6 +103,52 @@
             "https://www.unp.br/wp-content/uploads/2025/03/Manual-do-Aluno_UNP_Legado_atualizado.pdf"
           ],
           "status": "publicado"
+        },
+        {
+          "id": "acad-documentos-pendentes",
+          "pergunta": "Como envio documentos pendentes?",
+          "palavras_chave": [
+            "enviar documentos",
+            "documentos pendentes",
+            "anexar documento",
+            "entrega de documentos",
+            "documentacao pendente"
+          ],
+          "resposta": "A página e os manuais da UNP orientam que documentos pendentes sejam enviados pelo fluxo indicado no Ulife, que pode aparecer em Documentos de matrícula ou em Serviços/Solicitações Online, conforme o tipo de documento e o perfil. Confira o nome do protocolo disponível na sua conta. Não envie documentos pessoais pelo chat da LUMI.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "status": "publicado",
+          "observacao": "O caminho varia conforme currículo, modalidade e tipo de pendência."
+        },
+        {
+          "id": "acad-historico",
+          "pergunta": "Como acesso meu histórico escolar?",
+          "palavras_chave": [
+            "historico escolar",
+            "historico academico",
+            "boletim",
+            "notas historico"
+          ],
+          "resposta": "A UNP disponibiliza acesso ao histórico escolar por meio do link próprio indicado na página Sou estudante. Você também pode consultar os serviços acadêmicos no Ulife. Para emissão oficial, formato, prazo ou correção, confirme as opções disponíveis para seu perfil.",
+          "fonte": "https://www.unp.br/sou-estudante/",
+          "status": "publicado"
+        },
+        {
+          "id": "acad-protocolo-secretaria",
+          "pergunta": "Como faço uma solicitação para a Secretaria Acadêmica?",
+          "palavras_chave": [
+            "protocolo secretaria",
+            "solicitacao secretaria",
+            "secretaria academica",
+            "abrir protocolo",
+            "solicitacao online"
+          ],
+          "resposta": "O Manual do Aluno do novo currículo informa que os atendimentos da Secretaria Acadêmica são realizados por protocolos abertos pelo Ulife. Entre no portal oficial e consulte Serviços/Atendimento/Solicitações Online para localizar o serviço correspondente. Se não encontrar a opção, use o Fale com a Gente no Ulife.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "fontes_adicionais": [
+            "https://www.unp.br/wp-content/uploads/2025/03/Manual-Aluno_UNP-Novo-Curriculo-atualizado.pdf"
+          ],
+          "status": "publicado",
+          "observacao": "A nomenclatura dos menus pode mudar."
         }
       ]
     },
@@ -79,7 +159,13 @@
         {
           "id": "fin-boleto",
           "pergunta": "Onde encontro meu boleto ou mensalidade?",
-          "palavras_chave": ["boleto", "mensalidade", "segunda via", "extrato financeiro", "parcela"],
+          "palavras_chave": [
+            "boleto",
+            "mensalidade",
+            "segunda via",
+            "extrato financeiro",
+            "parcela"
+          ],
           "resposta": "O Manual do Aluno orienta que os boletos e o extrato financeiro podem ser consultados no Ulife, em Menu > Financeiro > Extrato Financeiro. A página Sou estudante também informa que o extrato pode ser encontrado no Portal do Aluno/Ulife. Os nomes dos menus podem variar conforme a versão do portal e o perfil do estudante.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "fontes_adicionais": [
@@ -91,7 +177,13 @@
         {
           "id": "fin-pagamento-nao-identificado",
           "pergunta": "Paguei, mas o pagamento não apareceu. O que faço?",
-          "palavras_chave": ["pagamento nao identificado", "paguei", "baixa de pagamento", "comprovante", "pagamento nao consta"],
+          "palavras_chave": [
+            "pagamento nao identificado",
+            "paguei",
+            "baixa de pagamento",
+            "comprovante",
+            "pagamento nao consta"
+          ],
           "resposta": "O Manual do Aluno orienta abrir uma solicitação no Ulife para análise quando o pagamento não for identificado, anexando comprovante com data, valor e código de barras. O manual informa que comprovante de agendamento não é aceito como comprovante de pagamento. Como o fluxo pode variar conforme a forma de pagamento e o currículo, siga as instruções atuais exibidas no Ulife.",
           "fonte": "https://www.unp.br/wp-content/uploads/2025/03/Manual-do-Aluno_UNP_Legado_atualizado.pdf",
           "status": "publicado",
@@ -100,7 +192,13 @@
         {
           "id": "fin-boleto-vencido",
           "pergunta": "Meu boleto venceu. Como faço?",
-          "palavras_chave": ["boleto vencido", "atraso", "juros", "multa", "segunda via vencida"],
+          "palavras_chave": [
+            "boleto vencido",
+            "atraso",
+            "juros",
+            "multa",
+            "segunda via vencida"
+          ],
           "resposta": "O Manual do Aluno orienta emitir um novo boleto pelo Ulife quando a parcela estiver vencida. O atraso pode gerar encargos previstos no contrato e nas políticas aplicáveis. A LUMI não calcula valores nem confirma descontos: consulte o boleto atualizado e as condições apresentadas no portal.",
           "fonte": "https://www.unp.br/wp-content/uploads/2025/03/Manual-Aluno_UNP-Novo-Curriculo-atualizado.pdf",
           "status": "publicado",
@@ -109,7 +207,13 @@
         {
           "id": "fin-valor-divergente",
           "pergunta": "Minha mensalidade veio com valor diferente. Como contesto?",
-          "palavras_chave": ["valor diferente", "valor divergente", "mensalidade errada", "revisao de boleto", "cobranca indevida"],
+          "palavras_chave": [
+            "valor diferente",
+            "valor divergente",
+            "mensalidade errada",
+            "revisao de boleto",
+            "cobranca indevida"
+          ],
           "resposta": "Se o valor da parcela parecer divergente, consulte o detalhamento financeiro no Ulife e abra atendimento/solicitação para análise, descrevendo a diferença percebida. Não envie dados de cartão ou informações bancárias à LUMI. A instituição deverá analisar seu contrato e sua ficha financeira.",
           "fonte": "https://www.unp.br/wp-content/uploads/2025/03/Manual-do-Aluno_UNP_Legado_atualizado.pdf",
           "status": "publicado"
@@ -117,9 +221,74 @@
         {
           "id": "fin-bolsa-desconto",
           "pergunta": "Como confirmo bolsa ou desconto?",
-          "palavras_chave": ["bolsa", "desconto", "pro uni", "fies", "beneficio", "mensalidade com desconto"],
+          "palavras_chave": [
+            "bolsa",
+            "desconto",
+            "pro uni",
+            "fies",
+            "beneficio",
+            "mensalidade com desconto"
+          ],
           "resposta": "As condições de bolsas e descontos dependem do programa, edital, contrato e situação do estudante. Consulte os documentos e regulamentos vigentes na Área do Candidato ou no portal do aluno. Para confirmar a aplicação de um benefício na sua mensalidade, solicite análise pelos canais oficiais da UNP.",
           "fonte": "https://www.unp.br/sou-candidato/",
+          "status": "publicado"
+        },
+        {
+          "id": "fin-boleto-nao-recebido",
+          "pergunta": "Não recebi ou não consigo visualizar meu boleto.",
+          "palavras_chave": [
+            "nao recebi boleto",
+            "boleto nao aparece",
+            "boleto indisponivel",
+            "segunda via boleto",
+            "nao consigo boleto"
+          ],
+          "resposta": "O Manual do Aluno orienta consultar os boletos no Ulife, na área Financeiro/Extrato Financeiro. Se o documento não estiver disponível, utilize o chat de atendimento dentro do extrato financeiro para solicitar orientação. A interface pode variar conforme o currículo.",
+          "fonte": "https://www.unp.br/wp-content/uploads/2025/03/Manual-Aluno_UNP-Novo-Curriculo-atualizado.pdf",
+          "status": "publicado"
+        },
+        {
+          "id": "fin-pagamento-cartao",
+          "pergunta": "Paguei com cartão e o pagamento não foi reconhecido.",
+          "palavras_chave": [
+            "paguei no cartao",
+            "pagamento cartao nao consta",
+            "cartao pagamento nao identificado",
+            "nsu",
+            "codigo autorizacao"
+          ],
+          "resposta": "O Manual do Aluno do novo currículo descreve um fluxo específico para pagamentos com cartão: abrir solicitação no Ulife e anexar a fatura ou extrato atualizado com os dados solicitados pela instituição. Como esses dados são financeiros, não os envie à LUMI. Acesse o portal oficial e siga as instruções do protocolo vigente.",
+          "fonte": "https://www.unp.br/wp-content/uploads/2025/03/Manual-Aluno_UNP-Novo-Curriculo-atualizado.pdf",
+          "status": "publicado",
+          "observacao": "Nunca solicitar número de cartão, NSU ou extrato no chat LUMI."
+        },
+        {
+          "id": "fin-negociacao",
+          "pergunta": "Como negocio uma dívida ou mensalidade em atraso?",
+          "palavras_chave": [
+            "negociar divida",
+            "negociacao",
+            "mensalidade atrasada",
+            "acordo financeiro",
+            "regularizar debito",
+            "renegociar"
+          ],
+          "resposta": "A UNP mantém uma página de Assessorias Financeiras com os canais de empresas responsáveis por determinados atendimentos e negociações. Consulte a página oficial para identificar o canal adequado à sua situação e modalidade. A LUMI não confirma elegibilidade, saldo, desconto ou condições de acordo.",
+          "fonte": "https://www.unp.br/sobre/assessoria-financeira/",
+          "status": "publicado"
+        },
+        {
+          "id": "fin-extrato",
+          "pergunta": "Onde consulto meu extrato financeiro?",
+          "palavras_chave": [
+            "extrato financeiro",
+            "ver parcelas",
+            "situacao financeira",
+            "minhas mensalidades",
+            "debitos"
+          ],
+          "resposta": "A página Sou estudante da UNP orienta acessar o Ulife e navegar até Menu > Serviços > Extrato Financeiro. O manual do aluno pode apresentar uma nomenclatura de menu diferente conforme o currículo. Consulte os lançamentos diretamente na sua conta.",
+          "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
         }
       ]
@@ -131,7 +300,13 @@
         {
           "id": "camp-calendario",
           "pergunta": "Onde encontro o calendário acadêmico?",
-          "palavras_chave": ["calendario", "datas do semestre", "inicio das aulas", "feriados", "periodo letivo"],
+          "palavras_chave": [
+            "calendario",
+            "datas do semestre",
+            "inicio das aulas",
+            "feriados",
+            "periodo letivo"
+          ],
           "resposta": "A UNP disponibiliza o calendário acadêmico na página Sou estudante. A consulta deve considerar o período, currículo e modalidade em que você está matriculado. A página apresenta opções de calendário para Natal e outras unidades, além de calendários por modalidade. Consulte a versão correspondente ao seu vínculo antes de considerar uma data como confirmada.",
           "fonte": "https://www.unp.br/sou-estudante/calendario/",
           "status": "publicado"
@@ -139,7 +314,15 @@
         {
           "id": "camp-avaliacoes",
           "pergunta": "Como funcionam as avaliações?",
-          "palavras_chave": ["prova", "provas", "avaliacao", "a1", "a2", "a3", "nota"],
+          "palavras_chave": [
+            "prova",
+            "provas",
+            "avaliacao",
+            "a1",
+            "a2",
+            "a3",
+            "nota"
+          ],
           "resposta": "A página Sou estudante informa que o processo de avaliação das unidades curriculares ocorre por meio de três avaliações durante o semestre: A1, A2 e A3. Para pesos, datas, critérios de aprovação e regras específicas da sua disciplina, consulte o plano de ensino, o Ulife e as orientações do professor.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
@@ -147,7 +330,12 @@
         {
           "id": "camp-uc",
           "pergunta": "O que significa UC?",
-          "palavras_chave": ["uc", "unidade curricular", "disciplina", "materia"],
+          "palavras_chave": [
+            "uc",
+            "unidade curricular",
+            "disciplina",
+            "materia"
+          ],
           "resposta": "UC significa Unidade Curricular: é a unidade de estudo/disciplina que você cursará no semestre, conforme a explicação da página Sou estudante da UNP.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
@@ -155,7 +343,14 @@
         {
           "id": "camp-cursos",
           "pergunta": "Quais cursos a UNP oferece?",
-          "palavras_chave": ["cursos", "graduacao", "curso superior", "bacharelado", "tecnologo", "licenciatura"],
+          "palavras_chave": [
+            "cursos",
+            "graduacao",
+            "curso superior",
+            "bacharelado",
+            "tecnologo",
+            "licenciatura"
+          ],
           "resposta": "A UNP divulga cursos de graduação, Medicina, pós-graduação/MBA, cursos livres, mestrados e doutorados. A disponibilidade de cada curso na Unidade Salgado Filho, modalidade, turno e vagas deve ser confirmada na página do curso ou diretamente com a instituição; o catálogo geral não garante oferta em uma unidade específica.",
           "fonte": "https://www.unp.br/cursos/",
           "status": "publicado"
@@ -163,7 +358,12 @@
         {
           "id": "camp-acg",
           "pergunta": "O que são atividades complementares?",
-          "palavras_chave": ["atividade complementar", "acg", "horas complementares", "extensao"],
+          "palavras_chave": [
+            "atividade complementar",
+            "acg",
+            "horas complementares",
+            "extensao"
+          ],
           "resposta": "A UNP explica que as Atividades Complementares de Graduação (ACG) são ações que complementam a formação acadêmica, profissional e pessoal do estudante. A quantidade de horas, atividades aceitas e forma de comprovação devem ser confirmadas no projeto pedagógico do curso e nas orientações da coordenação.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
@@ -171,8 +371,87 @@
         {
           "id": "camp-portal",
           "pergunta": "Onde vejo notas, materiais e avisos?",
-          "palavras_chave": ["notas", "material", "avisos", "portal", "ulife", "ambiente virtual"],
+          "palavras_chave": [
+            "notas",
+            "material",
+            "avisos",
+            "portal",
+            "ulife",
+            "ambiente virtual"
+          ],
           "resposta": "A página Sou estudante apresenta o Ulife/Portal do Aluno como ambiente para acessar informações acadêmicas, notas, materiais de estudo, calendários e avisos. Entre com sua própria conta pelo acesso oficial da instituição. A LUMI nunca deve pedir sua senha.",
+          "fonte": "https://www.unp.br/sou-estudante/",
+          "status": "publicado"
+        },
+        {
+          "id": "camp-biblioteca-salgado",
+          "pergunta": "Onde fica a biblioteca da Unidade Salgado Filho e qual o horário?",
+          "palavras_chave": [
+            "biblioteca",
+            "biblioteca salgado filho",
+            "horario biblioteca",
+            "endereco biblioteca",
+            "livros biblioteca"
+          ],
+          "resposta": "A página oficial da UNP informa que a Biblioteca da Unidade Salgado Filho fica na Av. Senador Salgado Filho, 1610, Lagoa Nova, Natal/RN, CEP 59056-000. O horário publicado é de segunda a sexta, das 8h às 21h45; aos sábados, fechada. Recomendo conferir a página antes de se deslocar, pois horários podem mudar.",
+          "fonte": "https://www.unp.br/sou-estudante/biblioteca/",
+          "status": "publicado",
+          "observacao": "Informação da biblioteca, não do horário geral de funcionamento do campus."
+        },
+        {
+          "id": "camp-inicio-semestre",
+          "pergunta": "Quando começam as aulas ou termina o semestre?",
+          "palavras_chave": [
+            "inicio das aulas",
+            "comeco das aulas",
+            "fim do semestre",
+            "termino semestre",
+            "data aulas"
+          ],
+          "resposta": "As datas dependem do calendário correspondente ao seu currículo, modalidade e unidade. A UNP publica calendários separados para Novo Currículo, Legado, Medicina, Semipresencial e EAD. Abra a página oficial e selecione a opção de Natal e o calendário que corresponde ao seu vínculo.",
+          "fonte": "https://www.unp.br/sou-estudante/calendario/",
+          "status": "publicado"
+        },
+        {
+          "id": "camp-faltas-frequencia",
+          "pergunta": "Como consulto minhas faltas e frequência?",
+          "palavras_chave": [
+            "faltas",
+            "frequencia",
+            "presenca",
+            "presenças",
+            "abono de falta"
+          ],
+          "resposta": "A LUMI não tem acesso ao seu registro individual de frequência. Consulte suas informações acadêmicas no Ulife e as orientações da unidade curricular/plano de ensino. Para solicitar análise ou correção de presença, abra atendimento pelo Ulife ou procure a coordenação/Secretaria Acadêmica.",
+          "fonte": "https://www.unp.br/sou-estudante/",
+          "status": "publicado",
+          "observacao": "Não afirmar percentual mínimo nem regra de abono sem consultar o regulamento aplicável."
+        },
+        {
+          "id": "camp-estagios-extensao",
+          "pergunta": "Onde encontro informações sobre estágio e extensão?",
+          "palavras_chave": [
+            "estagio",
+            "estagios",
+            "extensao",
+            "atividade de extensao",
+            "iniciacao cientifica"
+          ],
+          "resposta": "A página Sou estudante reúne acessos para estágio, extensão e iniciação científica. Consulte os links oficiais e as orientações específicas do seu curso. Requisitos, prazos e validação de horas devem ser confirmados com o setor responsável ou coordenação.",
+          "fonte": "https://www.unp.br/sou-estudante/",
+          "status": "publicado"
+        },
+        {
+          "id": "camp-apoio-inclusao",
+          "pergunta": "Existe apoio psicopedagógico ou inclusão?",
+          "palavras_chave": [
+            "apoio psicopedagogico",
+            "inclusao",
+            "napi",
+            "acessibilidade",
+            "apoio ao estudante"
+          ],
+          "resposta": "A página Sou estudante da UNP apresenta o NAPI como núcleo de apoio psicopedagógico e inclusão. Consulte a página institucional para acessar informações e canais de atendimento atualizados. Se precisar de orientação específica, procure o atendimento oficial pelo Ulife.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "publicado"
         }
@@ -209,6 +488,16 @@
       "titulo": "Manual do Aluno — Legado",
       "url": "https://www.unp.br/wp-content/uploads/2025/03/Manual-do-Aluno_UNP_Legado_atualizado.pdf",
       "uso": "Orientações acadêmicas e financeiras para estudantes abrangidos por essa versão."
+    },
+    {
+      "titulo": "Biblioteca — Unidade Salgado Filho",
+      "url": "https://www.unp.br/sou-estudante/biblioteca/",
+      "uso": "Endereço e horário publicados para a biblioteca da Unidade Salgado Filho."
+    },
+    {
+      "titulo": "Assessoria Financeira",
+      "url": "https://www.unp.br/sobre/assessoria-financeira/",
+      "uso": "Canais oficiais publicados para assuntos de negociação e apoio financeiro."
     }
   ],
   "pendencias_de_validacao_local": [
@@ -218,6 +507,8 @@
     "Confirmar regras atuais de rematrícula por curso, modalidade e currículo.",
     "Confirmar calendário específico do curso e turma do estudante.",
     "Confirmar oferta de cada curso na Unidade Salgado Filho, turno e modalidade.",
-    "Validar os fluxos financeiros mais recentes com o atendimento oficial."
+    "Validar os fluxos financeiros mais recentes com o atendimento oficial.",
+    "Confirmar com a unidade os canais e horários presenciais atuais da Secretaria Acadêmica.",
+    "Validar se os fluxos dos manuais de 2025 continuam vigentes no Ulife em 2026."
   ]
 }
