@@ -41,7 +41,8 @@ function route(q){
    const phrases=[x.item.pergunta,...(x.item.palavras_chave||[])].map(normalizeText).filter(Boolean);
    let score=0;
    phrases.forEach(p=>{
-    if(p.length>3 && s.includes(p)) score+=p.includes(' ')?9:5;
+    if(s===p) score+=20;
+    else if(p.length>3 && s.includes(p)) score+=p.includes(' ')?9:5;
     else if(p.length<=3 && (' '+s+' ').includes(' '+p+' ')) score+=3;
    });
    const keyTokens=[...new Set(phrases.flatMap(p=>p.split(' ').filter(t=>t.length>2)))];
