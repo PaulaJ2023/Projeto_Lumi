@@ -2,7 +2,7 @@
 
 A LUMI é um **protótipo acadêmico independente de assistente virtual universitária**, desenvolvido em português brasileiro. A base inicial usa informações públicas da Universidade Potiguar (UnP), com foco de pesquisa nos estudantes da unidade Salgado Filho, em Natal/RN.
 
-> **Importante:** a LUMI não é um canal oficial da UnP, não possui vínculo institucional, não acessa o Ulife nem consulta dados pessoais, acadêmicos ou financeiros. As respostas são orientações gerais e devem ser confirmadas nos canais oficiais.
+> **Importante:** a LUMI não é um canal oficial da UnP, não possui vínculo institucional, não consulta cadastros individuais nem consulta dados pessoais, acadêmicos ou financeiros. As respostas são orientações gerais e devem ser confirmadas nos canais oficiais.
 
 ## Acessar o protótipo
 
@@ -83,4 +83,4 @@ Projeto_Lumi/
 - [Manual do aluno](https://www.unp.br/sou-estudante/manual-do-aluno/)
 - [Cursos](https://www.unp.br/cursos/)
 - [Sou Candidato](https://www.unp.br/sou-candidato/)
-- [Ulife](https://ulife.com.br/)
+- [LUMI]()
