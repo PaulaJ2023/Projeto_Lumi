@@ -1,6 +1,6 @@
 {
   "nome": "Base de conhecimento da LUMI — Universidade Potiguar",
-  "versao": "1.1.0",
+  "versao": "1.1.1",
   "ultima_revisao": "2026-11-27",
   "finalidade": "Base inicial para protótipo acadêmico independente, baseada em páginas públicas institucionais da Universidade Potiguar (UnP). Foco de pesquisa: estudantes da unidade Salgado Filho, Natal/RN. Não substitui os canais oficiais e não contém dados da pesquisa Forms.",
   "aviso": "A LUMI é um protótipo acadêmico independente, concebido como ponto central de orientação e autoatendimento para estudantes da UnP. Não é um canal oficial, não possui vínculo institucional e não consulta cadastros individuais. As respostas usam referências públicas da UnP; funções personalizadas dependem de integração segura ainda não implementada.",
@@ -52,7 +52,7 @@
             "numero de matricula",
             "número de matrícula"
           ],
-          "resposta": "RA significa Registro Acadêmico e identifica o vínculo do estudante. A proposta da LUMI é centralizar orientações acadêmicas e, futuramente, permitir acesso autenticado a informações individuais. Nesta versão de protótipo, a LUMI não consulta nem revela RA pessoal.",
+          "resposta": "RA significa Registro Acadêmico e identifica o vínculo do estudante com a universidade. Se você precisa localizar o seu número, a LUMI pode orientar sobre a solicitação e explicar para que ele serve, mas não consulta cadastros pessoais nesta versão. Não compartilhe CPF ou documentos no chat.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "referência pública"
         },
@@ -82,7 +82,7 @@
             "histórico escolar",
             "boletim"
           ],
-          "resposta": "A LUMI reúne orientações para consulta do histórico escolar. A visualização ou emissão do histórico individual exige autenticação e integração com os registros acadêmicos da UnP, recurso que ainda não está disponível neste protótipo.",
+          "resposta": "O histórico escolar reúne informações sobre sua trajetória acadêmica, como componentes cursados e resultados registrados. Para obter o documento oficial ou conferir dados individuais, será necessária uma consulta autenticada aos registros acadêmicos. A LUMI pode explicar o que é o histórico e ajudar a organizar o pedido, mas não acessa nem emite o documento.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "referência pública"
         },
@@ -98,7 +98,7 @@
             "solicitação",
             "protocolo"
           ],
-          "resposta": "Use a LUMI como ponto inicial para organizar sua solicitação acadêmica e identificar o assunto correto. A abertura e o acompanhamento de requerimentos dependem de integração com a secretaria e autenticação do estudante; essas operações ainda não estão disponíveis no protótipo.",
+          "resposta": "Se sua demanda precisa da secretaria, primeiro identifique o assunto (matrícula, documento, frequência, disciplina ou outro), descreva o que aconteceu e reúna datas e comprovantes relevantes. A LUMI pode ajudar a organizar uma solicitação clara e indicar a área responsável. A abertura e o acompanhamento de um protocolo ainda não estão integrados ao protótipo.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "encaminhamento oficial"
         },
@@ -196,7 +196,7 @@
             "financeiro",
             "extrato financeiro"
           ],
-          "resposta": "Vamos por partes. Para localizar uma cobrança, identifique o mês ou parcela e confira se você precisa do boleto atual, da segunda via de uma parcela vencida ou do extrato de pagamentos. Antes de pagar, confira beneficiário, valor e vencimento no canal oficial de atendimento financeiro. Se o boleto não aparecer ou o valor estiver diferente, não pague um documento suspeito: solicite conferência. A LUMI pode orientar o que verificar, mas não emite boleto nem acessa seu saldo individual.",
+          "resposta": "Vamos por partes. Identifique o mês ou parcela e confira se você precisa do boleto atual, da segunda via de uma parcela vencida ou do extrato de pagamentos. Antes de pagar, confira beneficiário, valor e vencimento em um canal institucional confiável. Se o boleto não aparecer ou o valor estiver diferente, solicite conferência à área financeira. A LUMI pode orientar o que verificar, mas não emite boleto nem acessa seu saldo individual.",
           "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "referência em manual — conferir versão vigente"
         },
@@ -387,7 +387,7 @@
             "pos graduacao",
             "pós-graduação"
           ],
-          "resposta": "Consulte a página oficial de cursos da UnP para verificar a oferta atual. A disponibilidade de cada curso, modalidade e unidade deve ser confirmada na página específica do curso, pois pode mudar.",
+          "resposta": "A oferta de cursos e modalidades pode mudar. Para conferir uma opção, identifique o nível (graduação ou pós-graduação), o curso e a modalidade desejada e consulte a página institucional correspondente. Se você disser qual curso procura, posso ajudar a entender quais informações comparar, como modalidade, unidade e forma de ingresso.",
           "fonte": "https://www.unp.br/cursos/ | https://www.unp.br/cursos/graduacao/",
           "status": "fonte dinâmica — consultar oferta vigente"
         },
