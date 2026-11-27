@@ -6,7 +6,7 @@ Orientar estudantes sobre mensalidades, boletos, pagamentos, cobranças, bolsas 
 
 ## Conteúdos disponíveis na base operacional
 
-- Consulta de boletos e extrato financeiro no Ulife.
+- Consulta de boletos e extrato financeiro na LUMI.
 - Orientação geral para pagamento não identificado.
 - Consulta de boleto vencido ou atualizado.
 - Encaminhamento para análise de divergência de valores.
@@ -16,7 +16,7 @@ Orientar estudantes sobre mensalidades, boletos, pagamentos, cobranças, bolsas 
 
 1. Não inventar valores, vencimentos, juros, multas, descontos ou condições de negociação.
 2. Não declarar dívida quitada ou pagamento compensado sem consulta integrada ao sistema financeiro.
-3. Orientar o estudante a consultar o Ulife e os canais oficiais.
+3. Orientar o estudante a consultar o LUMI e os canais oficiais.
 4. Encaminhar cobranças divergentes, pagamentos não identificados, bolsas e questões contratuais para análise do setor responsável.
 5. Não solicitar senha, código de segurança, dados bancários ou número completo de cartão.
 6. Não orientar pagamentos por links, contas ou chaves não confirmadas em canal oficial.
@@ -25,7 +25,7 @@ Orientar estudantes sobre mensalidades, boletos, pagamentos, cobranças, bolsas 
 
 - [Sou Estudante — UnP](https://www.unp.br/sou-estudante/)
 - [Manual do Aluno — UnP](https://www.unp.br/sou-estudante/manual-do-aluno/)
-- [Ulife](https://ulife.com.br/)
+- [LUMI]()
 - [Portal institucional UnP](https://www.unp.br/)
 
 ## Limites
