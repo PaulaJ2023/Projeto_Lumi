@@ -1,41 +1,22 @@
 {
-  "nome": "Base de conhecimento LUMI — modelo universitário demonstrativo",
-  "versao": "2.0",
+  "nome": "Base oficial demonstrativa da LUMI — Universidade Aurora",
+  "versao": "3.0",
   "ultima_revisao": "2026-11-27",
-  "finalidade": "Conteúdo genérico para demonstração acadêmica de atendimento universitário. Foi estruturado a partir de temas encontrados em materiais públicos de referência universitária, incluindo páginas de estudante, manuais, calendários e catálogo de cursos. Não representa a UNP, não reproduz suas regras e não deve ser usado como orientação institucional.",
-  "aviso": "A LUMI é um protótipo independente. Os procedimentos abaixo são orientações-modelo e devem ser adaptados e validados pela instituição fictícia ou real que venha a utilizar o sistema. Não há valores, prazos, calendários, políticas ou contatos institucionais cadastrados.",
+  "finalidade": "Base institucional fictícia e autocontida para a assistente LUMI. Todas as regras, serviços, setores, sistemas e procedimentos descritos foram criados para a Universidade Aurora (UVA), uma universidade imaginária. Não correspondem a uma instituição real.",
+  "aviso": "CENÁRIO FICTÍCIO: a Universidade Aurora (UVA), o Campus Horizonte, o Portal Aurora e o Aurora Online não existem como serviços institucionais reais. As regras abaixo são o cânone do protótipo e devem ser tratadas como verdade apenas dentro da demonstração acadêmica. Não usar para orientar alunos de instituições reais.",
   "regras_do_agente": [
-    "Responder em português brasileiro, com acolhimento, clareza e objetividade.",
-    "Consultar os artigos desta base e não completar lacunas com suposições.",
-    "Tratar procedimentos como orientações gerais, nunca como regras oficiais de uma instituição.",
-    "Não inventar datas, prazos, valores, taxas, multas, notas mínimas, limites de faltas, horários ou documentos obrigatórios.",
-    "Quando a resposta depender do curso, modalidade, contrato, currículo ou situação individual, orientar a consulta ao portal acadêmico ou setor responsável da instituição.",
-    "Nunca solicitar senha, código de autenticação, CPF completo, dados de cartão, dados bancários ou documentos pessoais pelo chat.",
-    "Se a informação não estiver na base, explicar a limitação e oferecer encaminhamento humano.",
-    "Não afirmar que a LUMI representa oficialmente uma universidade nem que abriu um chamado real."
+    "Apresentar-se como LUMI, assistente virtual da fictícia Universidade Aurora (UVA).",
+    "Responder em português brasileiro, com acolhimento, clareza, objetividade e linguagem inclusiva.",
+    "Usar exclusivamente os artigos desta base para informar procedimentos e regras da Universidade Aurora.",
+    "Não misturar a Universidade Aurora com instituições reais nem mencionar marcas, portais, links ou regras de outras universidades.",
+    "Não inventar datas específicas de calendário, valores individuais, situação de matrícula, pagamentos, notas ou dados cadastrais.",
+    "Quando uma informação depender do contrato, curso, turno, modalidade ou cadastro do estudante, orientar a consulta ao Portal Aurora ou ao setor responsável.",
+    "Não solicitar senhas, códigos de autenticação, CPF completo, dados de cartão, dados bancários ou documentos pessoais no chat.",
+    "Não afirmar que consultou cadastro, emitiu documento, confirmou pagamento ou abriu protocolo se não houver integração real.",
+    "Se a base não trouxer resposta suficiente, explicar o limite e oferecer encaminhamento demonstrativo à Central de Relacionamento Aurora.",
+    "Deixar claro, quando necessário, que a Universidade Aurora é fictícia e que a LUMI é um protótipo acadêmico."
   ],
-  "referencias_de_inspiracao": [
-    {
-      "tema": "Portal do estudante, perguntas frequentes e serviços acadêmicos",
-      "url": "https://www.unp.br/sou-estudante/",
-      "uso": "Referência para mapear tipos de dúvidas comuns. Nenhuma regra institucional é adotada automaticamente."
-    },
-    {
-      "tema": "Manuais do aluno",
-      "url": "https://www.unp.br/sou-estudante/manual-do-aluno/",
-      "uso": "Referência para identificar assuntos que podem variar por modalidade e currículo."
-    },
-    {
-      "tema": "Calendário acadêmico",
-      "url": "https://www.unp.br/sou-estudante/calendario/",
-      "uso": "Referência para estruturar perguntas sobre calendários; datas não foram copiadas."
-    },
-    {
-      "tema": "Catálogo de cursos",
-      "url": "https://www.unp.br/cursos/",
-      "uso": "Referência para estruturar perguntas sobre oferta de cursos; nenhum curso é garantido para uma unidade."
-    }
-  ],
+  "referencias_de_inspiracao": [],
   "categorias": {
     "Academica": {
       "agente": "LUMI Acadêmica",
@@ -51,9 +32,9 @@
             "novo aluno",
             "começar curso"
           ],
-          "resposta": "O processo de matrícula costuma envolver inscrição ou aprovação no processo de ingresso, envio e conferência de documentos e confirmação do vínculo acadêmico. As etapas e os documentos dependem da instituição, do curso e da forma de ingresso. Consulte a área do candidato ou o setor de ingresso responsável. A LUMI não confirma matrícula nem reserva vaga.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Na Universidade Aurora, o ingresso começa pela inscrição no processo seletivo ou pela análise de transferência/segunda graduação. Após a aprovação, o candidato acessa o Portal Aurora, preenche os dados solicitados, anexa a documentação indicada na própria tela e lê o contrato educacional. A matrícula só é considerada concluída após a validação documental e a confirmação de aceite/ vínculo exibida no portal. A LUMI não reserva vaga nem confirma matrícula individual.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-rematricula",
@@ -65,9 +46,9 @@
             "renovação de matrícula",
             "matricula semestre"
           ],
-          "resposta": "A rematrícula é a renovação do vínculo para um novo período letivo. Antes de concluir, confira no portal acadêmico se existem etapas pendentes, como aceite de contrato, confirmação de disciplinas ou regularização de pendências. O calendário, os requisitos e a disponibilidade de disciplinas devem ser confirmados com a instituição. Não considere esta resposta como confirmação de que sua rematrícula foi efetivada.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Na UVA, a rematrícula é realizada a cada novo período letivo pelo Portal Aurora, na opção Vida Acadêmica > Rematrícula. O estudante deve revisar seus dados, conferir as disciplinas sugeridas, verificar eventuais pendências acadêmicas ou financeiras e confirmar o plano de estudos. A efetivação depende da confirmação final apresentada pelo portal. O período de rematrícula é divulgado no Calendário Acadêmico vigente.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-documentos",
@@ -81,9 +62,9 @@
             "historico escolar",
             "certificado"
           ],
-          "resposta": "A documentação pode variar conforme o tipo de ingresso, curso e situação do estudante. Em processos de graduação, instituições podem solicitar documentos de identificação e comprovação da escolaridade anterior, entre outros. Confira a lista individual exibida na área de matrícula e envie documentos somente pelo canal oficial indicado pela instituição. Não compartilhe documentos pessoais neste chat.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Para matrícula na Universidade Aurora, a lista individual de documentos aparece no Portal Aurora e pode variar conforme a forma de ingresso. Em geral, o processo pode solicitar identificação, CPF, comprovante de conclusão do ensino médio e histórico escolar; transferências podem exigir também histórico e ementas da instituição de origem. A lista exibida no portal prevalece. Envie arquivos somente pelo ambiente autenticado.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-documentos-pendentes",
@@ -95,9 +76,9 @@
             "mandar documentação",
             "documentação pendente"
           ],
-          "resposta": "Acesse o portal acadêmico usando seu próprio login e procure a área de matrícula, documentos ou solicitações. Verifique qual documento está pendente, o formato aceito e o canal indicado para anexá-lo. Se a opção não aparecer, solicite orientação à secretaria. Não envie arquivos pessoais à LUMI.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Entre no Portal Aurora e acesse Vida Acadêmica > Matrícula > Pendências documentais. Abra cada item para conferir o arquivo solicitado, formato aceito e instruções de envio. Depois do upload, acompanhe o status até aparecer como Validado. Se o item estiver incorreto ou a opção não aparecer, registre solicitação à Secretaria Acadêmica. Não envie documentos pessoais pelo chat.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-declaracao",
@@ -109,9 +90,9 @@
             "comprovante de matrícula",
             "declaracao de matricula"
           ],
-          "resposta": "Procure no portal acadêmico a área de serviços, requerimentos ou solicitações e selecione o tipo de declaração desejado. Antes de enviar, confira se há requisitos, taxa ou prazo informado pela instituição. Caso não encontre o serviço, fale com a secretaria ou atendimento acadêmico. A LUMI não emite documentos oficiais.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "No Portal Aurora, acesse Serviços Acadêmicos > Solicitar documento, escolha a declaração disponível e confira os dados antes de enviar. O sistema apresenta as condições e o prazo estimado aplicáveis ao pedido. Acompanhe em Meus Protocolos. A LUMI pode explicar o caminho, mas não emite, assina nem valida declarações oficiais.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-historico",
@@ -123,9 +104,9 @@
             "boletim",
             "registro acadêmico"
           ],
-          "resposta": "Consulte o portal acadêmico para verificar se o histórico está disponível para visualização ou solicitação. Diferencie o boletim de notas de um histórico escolar oficial. Para emissão, assinatura, formato, prazo ou correção de dados, siga o procedimento informado pela secretaria.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "O histórico acadêmico pode ser consultado no Portal Aurora em Vida Acadêmica > Histórico e Desempenho. Para solicitar uma via oficial, use Serviços Acadêmicos > Solicitar documento > Histórico escolar. Confira se precisa de versão digital assinada ou via física; as opções disponíveis serão mostradas no formulário. Correções de dados devem ser solicitadas à Secretaria Acadêmica.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-secretaria",
@@ -137,9 +118,9 @@
             "atendimento acadêmico",
             "falar com atendente"
           ],
-          "resposta": "A secretaria ou central de atendimento acadêmico é o setor indicado para analisar solicitações que dependem do seu cadastro. Procure no portal institucional a opção de atendimento, requerimentos ou abertura de protocolo. Informe o assunto de forma objetiva e guarde o número do protocolo, se houver. Os canais e horários precisam ser confirmados com a instituição.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "A Secretaria Acadêmica da Universidade Aurora atende solicitações sobre matrícula, registros, documentos, aproveitamento de estudos e vida acadêmica. O canal principal é Portal Aurora > Atendimento > Secretaria Acadêmica. Selecione o assunto, descreva a solicitação e acompanhe a resposta em Meus Protocolos. O atendimento presencial demonstrativo ocorre no Campus Horizonte, no balcão da Secretaria, conforme agenda divulgada no portal.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "acad-protocolo",
@@ -151,9 +132,37 @@
             "andamento",
             "requerimento"
           ],
-          "resposta": "Entre no portal acadêmico e procure a área de solicitações, requerimentos ou histórico de atendimento. Se existir um número de protocolo, utilize-o para localizar o pedido. Caso o andamento não esteja disponível, entre em contato com o setor responsável. Não compartilhe senha ou códigos de acesso no chat.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Para acompanhar uma solicitação, entre no Portal Aurora e abra Atendimento > Meus Protocolos. Selecione o protocolo para consultar status, mensagens e eventuais documentos solicitados. Os status possíveis são Recebido, Em análise, Aguardando estudante, Concluído e Indeferido. Se estiver Aguardando estudante, leia a orientação e responda pelo próprio protocolo.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
+        },
+        {
+          "id": "acad-trancamento",
+          "pergunta": "Como solicito trancamento ou cancelamento de matrícula?",
+          "palavras_chave": [
+            "trancar",
+            "trancamento",
+            "cancelar matrícula",
+            "cancelamento",
+            "pausar curso"
+          ],
+          "resposta": "No Portal Aurora, acesse Serviços Acadêmicos > Solicitações > Trancamento ou Cancelamento e leia as condições exibidas antes de confirmar. O trancamento mantém a possibilidade de retorno conforme as regras acadêmicas; o cancelamento encerra o vínculo. Como podem existir efeitos acadêmicos e financeiros, consulte o resumo apresentado e, se necessário, converse com a Secretaria Acadêmica e a Central Financeira antes de concluir.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
+        },
+        {
+          "id": "acad-transferencia",
+          "pergunta": "Como peço transferência ou aproveitamento de disciplinas?",
+          "palavras_chave": [
+            "transferência",
+            "transferencia",
+            "aproveitamento",
+            "equivalência",
+            "ementa"
+          ],
+          "resposta": "Acesse Portal Aurora > Serviços Acadêmicos > Transferência e aproveitamento. Para análise, a Universidade Aurora pode solicitar histórico oficial, ementas e planos de ensino das disciplinas cursadas. A coordenação compara conteúdo e carga horária e registra o resultado no portal. O aproveitamento não é automático e só é confirmado após análise formal.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         }
       ]
     },
@@ -171,9 +180,9 @@
             "parcela",
             "fatura"
           ],
-          "resposta": "Acesse o portal financeiro ou acadêmico da instituição e procure a área de financeiro, mensalidades ou títulos em aberto. Confira beneficiário, vencimento e valor antes de pagar. A LUMI não gera boletos, não consulta sua conta e não confirma valores individuais.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Na Universidade Aurora, mensalidades e demais cobranças ficam no Portal Aurora > Financeiro > Minhas cobranças. Selecione o período para visualizar o título, vencimento e opções de pagamento. Antes de pagar, confira se o beneficiário é Universidade Aurora Educacional e se os dados correspondem ao título emitido no portal. A LUMI não gera segunda via nem consulta valores individuais.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "fin-pagamento",
@@ -186,9 +195,9 @@
             "pagamento não consta",
             "comprovante"
           ],
-          "resposta": "Aguarde o prazo de processamento informado pelo banco e pela instituição. Se o pagamento continuar sem identificação, abra uma solicitação no canal financeiro oficial e siga a orientação sobre o comprovante necessário. Não envie comprovantes, dados bancários ou informações de cartão à LUMI.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Após pagar uma cobrança da UVA, a confirmação é atualizada no Portal Aurora > Financeiro > Histórico de pagamentos após o processamento bancário, que pode levar até 3 dias úteis no cenário fictício da Universidade Aurora. Se o pagamento não aparecer após esse período, abra Atendimento > Financeiro > Pagamento não identificado e siga as instruções do portal. Não envie comprovantes ou dados bancários à LUMI.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "fin-vencido",
@@ -201,9 +210,9 @@
             "multa",
             "vencimento"
           ],
-          "resposta": "Consulte o portal financeiro para verificar se há uma opção de atualização ou emissão de novo boleto. Antes de pagar, confira o valor atualizado e eventuais encargos apresentados pelo próprio sistema. Se não houver opção disponível, solicite orientação ao setor financeiro. A LUMI não calcula juros, multas ou descontos.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Se uma mensalidade vencer, acesse Portal Aurora > Financeiro > Minhas cobranças e selecione Atualizar cobrança, quando essa opção estiver disponível. O sistema exibirá o valor atualizado e eventuais encargos antes da emissão. Se não houver opção, abra solicitação à Central Financeira. A LUMI não calcula juros, multas nem negocia valores.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "fin-valor",
@@ -216,9 +225,9 @@
             "mensalidade errada",
             "revisar valor"
           ],
-          "resposta": "Compare o lançamento com as informações do seu contrato e com o extrato financeiro. Em seguida, abra uma solicitação no canal financeiro oficial, descrevendo a divergência e pedindo análise detalhada. Não envie dados bancários ou de cartão à LUMI. Somente o setor responsável pode analisar sua situação individual.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Se o valor da mensalidade parecer diferente, compare o lançamento com o resumo financeiro e as condições do contrato no Portal Aurora. Depois, abra Financeiro > Contestação de cobrança, informe o período e descreva a divergência sem incluir dados de cartão ou senha. A Central Financeira analisará o lançamento e responderá pelo protocolo. A LUMI não altera cobranças.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "fin-bolsa",
@@ -232,9 +241,9 @@
             "prouni",
             "fies"
           ],
-          "resposta": "As condições de bolsas e descontos dependem do programa, edital, contrato e critérios aplicáveis. Consulte o regulamento vigente e verifique no portal se o benefício aparece vinculado ao seu cadastro financeiro. Se houver divergência, solicite análise ao setor responsável. A LUMI não confirma elegibilidade nem valores de benefício.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "A Universidade Aurora possui, no cenário fictício, programas de bolsas por mérito acadêmico, apoio socioeconômico e convênios. Critérios, documentos e percentual variam por edital e não são garantidos pela LUMI. Consulte Portal Aurora > Financeiro > Bolsas e benefícios para ver editais vigentes e a situação do benefício. A concessão depende de análise formal.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "fin-negociacao",
@@ -248,9 +257,9 @@
             "renegociar",
             "parcelamento"
           ],
-          "resposta": "Procure no portal financeiro a área de negociação ou entre em contato com o setor responsável por cobranças. Antes de aceitar uma proposta, confira o valor total, quantidade de parcelas, vencimentos e condições por escrito. A LUMI não consulta débitos nem oferece acordos.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Para consultar opções de negociação, acesse Portal Aurora > Financeiro > Negociação de débitos. Se houver proposta disponível, o portal mostrará valor total, entrada, parcelas e vencimentos antes da confirmação. Leia todas as condições e guarde o comprovante do acordo. Se não houver proposta disponível, abra solicitação à Central Financeira. A LUMI não aprova acordos.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "fin-extrato",
@@ -263,9 +272,23 @@
             "debitos",
             "parcelas"
           ],
-          "resposta": "No portal da instituição, procure a área Financeiro, Extrato ou Histórico de pagamentos. Ali podem aparecer parcelas, pagamentos identificados e pendências. A nomenclatura muda conforme o sistema utilizado. Para contestar um lançamento, abra uma solicitação com o setor financeiro.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "O extrato fica no Portal Aurora > Financeiro > Extrato financeiro. Selecione o período para visualizar cobranças, pagamentos identificados, créditos e pendências. Para questionar um lançamento, utilize a opção Contestar cobrança e acompanhe o protocolo. A LUMI não tem acesso à conta financeira individual do estudante.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
+        },
+        {
+          "id": "fin-reembolso",
+          "pergunta": "Como solicito análise de estorno ou reembolso?",
+          "palavras_chave": [
+            "reembolso",
+            "estorno",
+            "devolução",
+            "devolucao",
+            "valor pago a mais"
+          ],
+          "resposta": "Registre a solicitação em Portal Aurora > Financeiro > Solicitar análise de estorno. Selecione a cobrança relacionada e descreva o motivo. A Central Financeira verificará o contrato, o histórico e as regras aplicáveis e informará o resultado pelo protocolo. A LUMI não promete aprovação nem solicita dados bancários pelo chat.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         }
       ]
     },
@@ -285,9 +308,9 @@
             "feriados",
             "período letivo"
           ],
-          "resposta": "Procure o calendário acadêmico no portal ou site da instituição. Confira se o documento corresponde ao seu campus, curso, modalidade, turno e período letivo. Datas de início, avaliações, feriados e encerramento podem variar. A LUMI não deve informar datas sem consultar o calendário correto e atualizado.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "O Calendário Acadêmico da Universidade Aurora é publicado no Portal Aurora > Campus > Calendário Acadêmico. Há versões por período letivo e, quando necessário, por curso ou modalidade. Consulte sempre a versão vigente para verificar início e encerramento das aulas, períodos de avaliação, feriados, rematrícula e prazos acadêmicos. A LUMI não deve estimar datas ausentes do calendário.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-avaliacoes",
@@ -301,9 +324,9 @@
             "avaliação final",
             "segunda chamada"
           ],
-          "resposta": "Os formatos de avaliação são definidos pelo projeto pedagógico, plano de ensino e regras acadêmicas da instituição. Consulte o ambiente virtual da disciplina e as orientações do professor para conferir atividades, pesos, datas, critérios de aprovação e procedimentos para ausência. A LUMI não deve presumir um modelo único de avaliação.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Na UVA, cada disciplina apresenta seus critérios de avaliação no Plano de Ensino, disponível no Aurora Online. O plano informa atividades, pesos, instrumentos e orientações do professor. Datas de provas e entregas são publicadas no ambiente da disciplina e podem ser atualizadas pelo docente. Em caso de ausência, consulte no Portal Aurora > Serviços Acadêmicos se há procedimento de segunda oportunidade e seus requisitos.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-notas",
@@ -317,9 +340,9 @@
             "presenca",
             "boletim"
           ],
-          "resposta": "Entre no portal acadêmico ou ambiente virtual de aprendizagem e procure a área de notas, desempenho ou frequência. Se houver divergência, converse primeiro com o professor e, se necessário, registre uma solicitação junto à coordenação ou secretaria. A LUMI não acessa seu histórico individual.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Consulte notas e frequência no Aurora Online, dentro da página da disciplina, ou no Portal Aurora > Vida Acadêmica > Desempenho. Se identificar divergência, procure primeiro o docente responsável; se não for resolvida, registre pedido de revisão à coordenação pelo Portal Aurora. A LUMI não acessa nem altera notas ou frequência individuais.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-cursos",
@@ -333,9 +356,9 @@
             "tecnólogo",
             "tecnologo"
           ],
-          "resposta": "Consulte o catálogo oficial de cursos e filtre por unidade, modalidade e turno. A existência de um curso no catálogo geral não garante oferta em todos os campi ou períodos. Para confirmar vagas, grade curricular, duração e início de turma, consulte a página específica do curso ou a equipe de ingresso.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "O catálogo fictício da Universidade Aurora reúne cursos de graduação presenciais e digitais nas áreas de Gestão, Tecnologia, Saúde, Educação e Comunicação. Para a demonstração, a oferta, turno, duração, matriz curricular e vagas devem ser consultados na ficha de cada curso no Portal Aurora > Cursos. A presença de um curso no catálogo não garante turma aberta em todo período.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-disciplinas",
@@ -349,9 +372,9 @@
             "turma",
             "unidade curricular"
           ],
-          "resposta": "Acesse o portal acadêmico e procure a área de matrícula, grade curricular ou quadro de horários. Confira turma, turno, sala e eventuais atualizações comunicadas pela coordenação. Se uma disciplina não aparecer ou houver conflito de horário, procure a secretaria ou coordenação do curso.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "No Portal Aurora, acesse Vida Acadêmica > Minha grade para consultar disciplinas, turma, turno e situação de matrícula. Salas e alterações de horário são comunicadas no Aurora Online e nos avisos do curso. Se uma disciplina não aparecer, houver conflito ou a turma estiver incorreta, abra solicitação à Secretaria Acadêmica ou procure a coordenação.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-atividades",
@@ -364,9 +387,9 @@
             "horas complementares",
             "acg"
           ],
-          "resposta": "Atividades complementares e de extensão são experiências formativas que podem integrar a trajetória acadêmica, conforme as regras do curso. Consulte o projeto pedagógico e as orientações da coordenação para saber quais atividades são aceitas, como comprovar participação e qual carga horária se aplica ao seu curso.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "Na Universidade Aurora, atividades complementares e de extensão ampliam a formação do estudante. A aceitação, carga horária e documentação dependem do projeto pedagógico de cada curso. Consulte Portal Aurora > Vida Acadêmica > Atividades formativas para ver orientações e enviar certificados. A coordenação valida o aproveitamento; a LUMI não garante equivalência ou contabilização.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-biblioteca",
@@ -379,9 +402,9 @@
             "emprestimo",
             "sala de estudo"
           ],
-          "resposta": "Consulte a página ou o portal da biblioteca para verificar catálogo, acesso digital, empréstimos, renovação, reservas e regras de uso dos espaços. Horários, disponibilidade de materiais e serviços variam por unidade e devem ser confirmados diretamente com a biblioteca.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "A Biblioteca Aurora oferece consulta ao catálogo físico e digital pelo Portal Aurora > Campus > Biblioteca. O estudante pode pesquisar obras, verificar disponibilidade e acessar recursos digitais com a conta institucional. Regras de empréstimo, renovação, reserva e uso dos espaços ficam na página da Biblioteca Aurora. A LUMI não consulta disponibilidade em tempo real.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         },
         {
           "id": "camp-apoio",
@@ -395,11 +418,55 @@
             "serviços ao aluno",
             "vida acadêmica"
           ],
-          "resposta": "Verifique no portal institucional quais serviços de apoio estão disponíveis, como orientação acadêmica, acessibilidade, apoio psicopedagógico, estágios, extensão, biblioteca e atividades de integração. A disponibilidade e os critérios de acesso variam entre instituições e unidades. Em caso de urgência ou risco à saúde, procure diretamente um serviço apropriado; a LUMI não substitui atendimento profissional.",
-          "fonte": "Orientação geral demonstrativa",
-          "status": "demonstrativo"
+          "resposta": "A Universidade Aurora reúne, no cenário fictício, serviços de apoio acadêmico, acessibilidade, orientação de carreira, estágios, extensão e acolhimento estudantil. Consulte Portal Aurora > Campus > Apoio ao estudante para conhecer serviços, critérios e agendamentos. Para situações urgentes de saúde ou segurança, procure diretamente os serviços de emergência adequados; a LUMI não substitui atendimento profissional.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
+        },
+        {
+          "id": "camp-aurora-online",
+          "pergunta": "Como acesso minhas aulas e materiais online?",
+          "palavras_chave": [
+            "aurora online",
+            "ambiente virtual",
+            "aula online",
+            "material",
+            "acessar disciplina",
+            "ead"
+          ],
+          "resposta": "O ambiente virtual da Universidade Aurora chama-se Aurora Online. Acesse pelo atalho disponível no Portal Aurora usando sua conta institucional. Na página inicial, selecione a disciplina para consultar avisos, materiais, atividades, fóruns e plano de ensino. Se uma disciplina não aparecer, confira sua grade no Portal Aurora e abra solicitação à Secretaria Acadêmica.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
+        },
+        {
+          "id": "camp-estagio",
+          "pergunta": "Como encontro oportunidades de estágio?",
+          "palavras_chave": [
+            "estágio",
+            "estagio",
+            "vagas",
+            "carreira",
+            "currículo",
+            "curriculo"
+          ],
+          "resposta": "Consulte Portal Aurora > Campus > Carreiras e Estágios. O espaço reúne orientações, oportunidades divulgadas e instruções para formalização de estágio. Antes de iniciar uma atividade, confirme com a coordenação e com a equipe de estágios se o plano e o termo de compromisso atendem às exigências do curso. A LUMI não garante vagas.",
+          "fonte": "Base institucional fictícia da Universidade Aurora (UVA)",
+          "status": "publicado para demonstração"
         }
       ]
     }
+  },
+  "instituicao": {
+    "nome": "Universidade Aurora",
+    "sigla": "UVA",
+    "natureza": "universidade privada fictícia criada exclusivamente para o projeto acadêmico LUMI",
+    "missao": "Promover formação humana, científica e profissional com acolhimento, inovação e responsabilidade social.",
+    "campus": "Campus Horizonte",
+    "portal": "Portal Aurora",
+    "ambiente_virtual": "Aurora Online",
+    "central": "Central de Relacionamento Aurora",
+    "secretaria": "Secretaria Acadêmica",
+    "financeiro": "Central Financeira",
+    "biblioteca": "Biblioteca Aurora",
+    "identidade": "A Universidade Aurora e todos os seus serviços, regras, sistemas e nomes são fictícios."
   }
 }
