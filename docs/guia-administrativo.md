@@ -4,7 +4,7 @@
 
 A LUMI é um protótipo acadêmico independente que utiliza informações públicas da Universidade Potiguar (UnP) como referência inicial. O foco da pesquisa de campo é a unidade Salgado Filho, em Natal/RN.
 
-A LUMI não é oficial, não possui vínculo institucional e não acessa o Ulife ou dados de estudantes. Não apresentar respostas do protótipo como decisões ou políticas oficiais da UnP.
+A LUMI não é oficial, não possui vínculo institucional e não consulta dados individuais de estudantes. Não apresentar respostas do protótipo como decisões ou políticas oficiais da UnP.
 
 ## 2. Agentes
 
