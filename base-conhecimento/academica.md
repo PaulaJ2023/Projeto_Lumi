@@ -7,7 +7,7 @@ Orientar estudantes sobre matrícula, RA, documentos, declarações, histórico 
 ## Conteúdos disponíveis na base operacional
 
 - Acompanhamento de matrícula e ingresso.
-- Consulta do RA pelo Ulife Aluno.
+- Consulta do RA pela área Acadêmica da LUMI.
 - Orientação para localizar documentos e declarações.
 - Consulta ao histórico escolar.
 - Encaminhamento de solicitações à secretaria e canais oficiais.
@@ -26,7 +26,7 @@ Orientar estudantes sobre matrícula, RA, documentos, declarações, histórico 
 - [Sou Estudante — UnP](https://www.unp.br/sou-estudante/)
 - [Sou Candidato — UnP](https://www.unp.br/sou-candidato/)
 - [Manual do Aluno — UnP](https://www.unp.br/sou-estudante/manual-do-aluno/)
-- [Ulife](https://ulife.com.br/)
+- [LUMI]()
 
 ## Limites
 
