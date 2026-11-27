@@ -10,7 +10,7 @@ A base operacional efetivamente carregada pelo chat está em [data/base-conhecim
 
 ## Contexto
 
-A LUMI é um projeto acadêmico independente, desenvolvido com referência em informações públicas da Universidade Potiguar (UnP), com foco de pesquisa nos estudantes da unidade Salgado Filho, em Natal/RN. A LUMI não é um canal oficial da UnP, não representa parceria institucional e não acessa o Ulife ou dados individuais dos estudantes.
+A LUMI é um projeto acadêmico independente, desenvolvido com referência em informações públicas da Universidade Potiguar (UnP), com foco de pesquisa nos estudantes da unidade Salgado Filho, em Natal/RN. A LUMI não é um canal oficial da UnP, não representa parceria institucional e não consulta cadastros individuais nem executa operações que dependem de integração institucional.
 
 ## Como utilizar
 
