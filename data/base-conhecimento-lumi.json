@@ -1,9 +1,9 @@
 {
-  "nome": "Base de conhecimento da LUMI — referência pública UnP",
+  "nome": "Base de conhecimento da LUMI — Universidade Potiguar",
   "versao": "1.0.0",
   "ultima_revisao": "2026-11-27",
   "finalidade": "Base inicial para protótipo acadêmico independente, baseada em páginas públicas institucionais da Universidade Potiguar (UnP). Foco de pesquisa: estudantes da unidade Salgado Filho, Natal/RN. Não substitui os canais oficiais e não contém dados da pesquisa Forms.",
-  "aviso": "A LUMI não é um canal oficial da UnP, não possui vínculo institucional nem acesso ao Ulife ou a cadastros. As respostas são orientações gerais baseadas em fontes públicas e devem ser confirmadas nos canais oficiais.",
+  "aviso": "A LUMI é um protótipo acadêmico independente, concebido como ponto central de orientação e autoatendimento para estudantes da UnP. Não é um canal oficial, não possui vínculo institucional e não consulta cadastros individuais. As respostas usam referências públicas da UnP; funções personalizadas dependem de integração segura ainda não implementada.",
   "regras_do_agente": [
     "Responder em português brasileiro, com acolhimento, clareza e objetividade.",
     "Usar os artigos e fontes oficiais desta base; não inventar políticas, datas, valores, prazos ou documentos obrigatórios.",
@@ -33,7 +33,7 @@
             "ingresso",
             "novo aluno"
           ],
-          "resposta": "Se você ainda é candidato, acompanhe seu processo pela página Sou Candidato da UnP. Se já é estudante, consulte o Ulife e a página Sou Estudante. Se a matrícula não aparecer, houver bloqueio ou divergência, solicite análise pelos canais oficiais, pois a LUMI não acessa seu cadastro.",
+          "resposta": "A LUMI reúne orientações sobre ingresso e matrícula na UnP. Se você ainda é candidato, consulte a página Sou Candidato para acompanhar as etapas de ingresso. Para verificar uma matrícula individual, será necessário atendimento autenticado da universidade; o protótipo da LUMI ainda não consulta cadastros.",
           "fonte": "https://www.unp.br/sou-candidato/ | https://www.unp.br/sou-estudante/",
           "status": "referência pública — confirmar caso individual"
         },
@@ -47,7 +47,7 @@
             "numero de matricula",
             "número de matrícula"
           ],
-          "resposta": "O RA é o Registro Acadêmico que identifica seu vínculo como estudante. A página Sou Estudante da UnP orienta consultar essa informação no Ulife Aluno. A LUMI não consegue consultar seu RA individual.",
+          "resposta": "RA significa Registro Acadêmico e identifica o vínculo do estudante. A proposta da LUMI é centralizar orientações acadêmicas e, futuramente, permitir acesso autenticado a informações individuais. Nesta versão de protótipo, a LUMI não consulta nem revela RA pessoal.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "referência pública"
         },
@@ -63,7 +63,7 @@
             "comprovante",
             "secretaria"
           ],
-          "resposta": "Consulte no Ulife as opções de serviços e documentos disponíveis para seu vínculo. A página Sou Estudante também reúne orientações e acesso ao histórico escolar. Tipos de documento, taxas, prazos e requisitos podem variar; confirme as condições no próprio sistema ou com o atendimento oficial. Não envie documentos pessoais pelo chat.",
+          "resposta": "A LUMI organiza orientações sobre documentos, declarações e histórico escolar. Consulte na área Acadêmica da LUMI as informações gerais disponíveis. A emissão de documentos oficiais, taxas, prazos e requisitos depende das regras vigentes da UnP e de uma solicitação autenticada; essa operação ainda não está integrada ao protótipo.",
           "fonte": "https://www.unp.br/sou-estudante/ | https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "procedimento específico precisa validar"
         },
@@ -77,7 +77,7 @@
             "histórico escolar",
             "boletim"
           ],
-          "resposta": "A UnP disponibiliza acesso ao histórico escolar pela página Sou Estudante. Entre no ambiente indicado e consulte as opções vinculadas ao seu perfil. Para correções ou emissão de documento oficial, confirme o procedimento e o prazo nos canais oficiais.",
+          "resposta": "A LUMI reúne orientações para consulta do histórico escolar. A visualização ou emissão do histórico individual exige autenticação e integração com os registros acadêmicos da UnP, recurso que ainda não está disponível neste protótipo.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "referência pública"
         },
@@ -93,7 +93,7 @@
             "solicitação",
             "protocolo"
           ],
-          "resposta": "Para solicitações sobre matrícula, registros, disciplinas ou documentos, consulte os serviços disponíveis no Ulife e os canais indicados na página Sou Estudante. A análise depende dos seus dados acadêmicos; a LUMI não abre protocolos nem acompanha solicitações.",
+          "resposta": "Use a LUMI como ponto inicial para organizar sua solicitação acadêmica e identificar o assunto correto. A abertura e o acompanhamento de requerimentos dependem de integração com a secretaria e autenticação do estudante; essas operações ainda não estão disponíveis no protótipo.",
           "fonte": "https://www.unp.br/sou-estudante/",
           "status": "encaminhamento oficial"
         }
@@ -114,8 +114,8 @@
             "financeiro",
             "extrato financeiro"
           ],
-          "resposta": "O manual do aluno orienta consultar os boletos no Ulife em Menu > Financeiro > Extrato Financeiro. Se o boleto não aparecer ou houver erro, procure o atendimento digital indicado pela UnP. A LUMI não consulta valores individuais nem gera boletos.",
-          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/ | https://ulife.com.br/",
+          "resposta": "A área Financeira da LUMI foi concebida para reunir orientações sobre mensalidades, boletos e extrato financeiro. Nesta versão, a LUMI não consulta valores individuais nem emite boletos. Para uma consulta personalizada, será necessária integração segura com os dados financeiros da UnP.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "referência em manual — conferir versão vigente"
         },
         {
@@ -129,8 +129,8 @@
             "baixa",
             "comprovante"
           ],
-          "resposta": "Guarde o comprovante definitivo do pagamento e solicite a análise ao atendimento financeiro pelos canais oficiais disponíveis no Ulife. Um comprovante de agendamento não é a mesma coisa que a confirmação de pagamento. Não envie dados bancários ou comprovantes com informações sensíveis pelo chat.",
-          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/ | https://ulife.com.br/",
+          "resposta": "A LUMI pode orientar sobre como proceder quando um pagamento não aparece como identificado. Guarde o comprovante definitivo e solicite a conferência por um canal autenticado da universidade. O protótipo ainda não consulta pagamentos nem recebe comprovantes; não envie dados bancários pelo chat.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "orientação geral — procedimento atual precisa validar"
         },
         {
@@ -146,8 +146,8 @@
             "multa",
             "mensalidade errada"
           ],
-          "resposta": "O valor pode depender do contrato, curso, período e benefícios aplicáveis. Consulte o Extrato Financeiro no Ulife e solicite uma análise ao atendimento financeiro oficial. A LUMI não calcula valores, confirma descontos, negocia dívidas ou promete estornos.",
-          "fonte": "https://ulife.com.br/ | https://www.unp.br/sou-estudante/manual-do-aluno/",
+          "resposta": "A área Financeira da LUMI centraliza orientações sobre cobranças, descontos e mensalidades. Valores dependem do contrato, curso, período e benefícios aplicáveis. A análise de uma cobrança individual exige acesso seguro aos dados financeiros da UnP e ainda não é realizada pelo protótipo.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "encaminhamento — análise individual"
         },
         {
@@ -178,8 +178,8 @@
             "negociacao",
             "negociação"
           ],
-          "resposta": "O manual do aluno orienta consultar e, quando disponível, emitir um boleto atualizado pelo Ulife. Confira as condições apresentadas no sistema e procure o atendimento financeiro se precisar de análise ou negociação. A LUMI não calcula encargos nem confirma condições contratuais.",
-          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/ | https://ulife.com.br/",
+          "resposta": "A LUMI pode orientar sobre os próximos passos para tratar uma mensalidade vencida. A atualização de boleto, cálculo de encargos e negociação dependem das condições contratuais e de consulta autenticada aos dados financeiros; essas operações ainda não estão integradas ao protótipo.",
+          "fonte": "https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "referência em manual — conferir versão vigente"
         }
       ]
@@ -219,7 +219,7 @@
             "frequência",
             "segunda chamada"
           ],
-          "resposta": "A página Sou Estudante apresenta informações gerais sobre avaliações, incluindo A1, A2 e A3. Pesos, fórmulas, notas mínimas, frequência e regras de segunda chamada podem variar conforme curso e currículo. Consulte o manual correspondente e as orientações da unidade curricular no Ulife.",
+          "resposta": "A UnP apresenta informações gerais sobre avaliações, incluindo A1, A2 e A3. Pesos, fórmulas, notas mínimas, frequência e regras de segunda chamada podem variar conforme curso e currículo. A LUMI reunirá essas orientações e deve indicar o regulamento aplicável, sem calcular resultados individuais sem os dados e regras corretos.",
           "fonte": "https://www.unp.br/sou-estudante/ | https://www.unp.br/sou-estudante/manual-do-aluno/",
           "status": "regra específica precisa validar"
         },
