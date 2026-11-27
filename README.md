@@ -39,17 +39,15 @@ O enunciado menciona o autoatendimento via WhatsApp na pesquisa, mas permite imp
 - Modelo de linguagem: a definir e justificar na documentação técnica.
 - Docker: opcional para empacotamento.
 
-## Base de conhecimento inicial — UNP Salgado Filho
-O arquivo `data/base-conhecimento-unp.json` reúne artigos nas categorias Acadêmica, Financeira e Campus, com perguntas, palavras-chave, respostas, links de fonte e pendências de validação local. O chat carrega esse arquivo com `fetch()` e usa correspondência simples por palavras-chave para selecionar uma resposta. Os artigos atuais são orientações iniciais baseadas em páginas públicas oficiais da UNP; eles não substituem confirmação individual no Ulife ou atendimento institucional.
+## Base de conhecimento da LUMI
 
-Fontes principais:
-- [Sou estudante](https://www.unp.br/sou-estudante/)
-- [Calendário acadêmico](https://www.unp.br/sou-estudante/calendario/)
-- [Área do Candidato](https://www.unp.br/sou-candidato/)
-- [Cursos](https://www.unp.br/cursos/)
-- Manuais do Aluno (links e escopo registrados dentro do JSON).
+O arquivo `data/base-conhecimento-lumi.json` contém artigos demonstrativos nas categorias Acadêmica, Financeira e Campus. O conteúdo foi estruturado a partir de temas comuns encontrados em referências públicas universitárias, mas foi reescrito como orientação genérica: não representa a UNP, não reproduz políticas institucionais e não deve ser apresentado como informação oficial de qualquer universidade.
 
-Para atualizar a base, edite o JSON mantendo a estrutura `categorias → categoria → itens`. Cada artigo deve ter `id`, `pergunta`, `palavras_chave`, `resposta`, `fonte` e `status`. Não adicione regras locais sem validação.
+A base inclui perguntas frequentes sobre matrícula, rematrícula, documentos, declarações, secretaria, mensalidades, boletos, pagamentos, bolsas, calendário, avaliações, cursos, disciplinas, biblioteca e apoio estudantil. Quando faltam dados específicos, a LUMI orienta o estudante a consultar o portal ou setor responsável, sem inventar datas, valores ou prazos.
+
+**Integração atual:** o `index.html` carrega esse JSON com `fetch('./data/base-conhecimento-lumi.json')`. O chat percorre as palavras-chave dos artigos e apresenta a resposta com maior correspondência. Portanto, a base já alimenta a demonstração web, mas isso ainda não é uma integração com IA generativa, Supabase ou n8n. O navegador precisa abrir o site por um servidor HTTP (por exemplo, GitHub Pages); abrir o HTML diretamente como arquivo pode bloquear o `fetch()`.
+
+Para editar a base, atualize o JSON mantendo a estrutura `categorias → categoria → itens`. Cada artigo possui `id`, `pergunta`, `palavras_chave`, `resposta`, `fonte` e `status`. Os links em `referencias_de_inspiracao` servem apenas para documentar os temas que inspiraram a organização; não transformam as respostas em políticas da instituição citada.
 
 ## Estado atual e limitações
 Este repositório contém um **protótipo de interface**, não uma aplicação com IA integrada. As respostas usam regras simples por palavras-chave consultando o arquivo JSON. O arquivo JSON é versionado no GitHub; itens adicionados pelo formulário administrativo ainda não persistem. Ainda não há autenticação administrativa, banco de dados, API ou integração com n8n/modelo de linguagem. Indicadores ilustrativos não são dados reais.
