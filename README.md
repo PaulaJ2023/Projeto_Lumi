@@ -14,7 +14,7 @@ A proposta nasce da realidade dos estudantes da UNP Salgado Filho: a pesquisa de
 Abra **[index.html](./index.html)** no navegador. O protótipo é estático e não exige instalação.
 
 ## Duas áreas
-- **Visão do aluno:** chat demonstrativo, atalhos e central de ajuda.
+- **Visão do aluno:** chat acolhedor, atalhos por assunto, sugestões de próximos passos, indicador de status, retorno ao menu e opção de solicitar orientação humana. O encaminhamento humano é demonstrativo e ainda não abre chamado real.
 - **LUMI Studio:** visão geral, agentes, prompts, base de conhecimento, laboratório de testes, resultados e histórico.
 
 ## Agentes previstos
