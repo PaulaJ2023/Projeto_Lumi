@@ -1,71 +1,31 @@
 # Guia administrativo — LUMI Studio
 
-## 1. Contexto do projeto
+## Objetivo
+A LUMI propõe uma experiência centralizada de autoatendimento para estudantes da UnP, com orientação acadêmica, financeira e de campus. É um protótipo acadêmico independente, não um canal oficial.
 
-A LUMI é um protótipo acadêmico independente que utiliza informações públicas da Universidade Potiguar (UnP) como referência inicial. O foco da pesquisa de campo é a unidade Salgado Filho, em Natal/RN.
+## Agentes
+- **Generalista:** acolhe, identifica intenção e esclarece ambiguidades.
+- **Acadêmica:** ingresso, matrícula, documentos, declarações, histórico e frequência.
+- **Financeira:** mensalidades, boletos, pagamentos, divergências e bolsas.
+- **Campus:** calendário, avaliações, cursos, biblioteca, ENADE e colação.
 
-A LUMI não é oficial, não possui vínculo institucional e não consulta dados individuais de estudantes. Não apresentar respostas do protótipo como decisões ou políticas oficiais da UnP.
+## Padrão de resposta
+1. Responder à dúvida com explicação e passos práticos.
+2. Não usar links como substitutos da resposta.
+3. Exibir referências apenas quando solicitadas ou necessárias.
+4. Pedir contexto quando curso, modalidade, currículo ou período alterarem a resposta.
+5. Não inventar datas, valores, prazos ou requisitos.
+6. Não solicitar senhas, dados bancários ou documentos pessoais.
+7. Não afirmar que consultou dados individuais ou concluiu operações.
 
-## 2. Agentes
+## Gestão da base
+- Base operacional: `data/base-conhecimento-lumi.json`.
+- Documentação: `docs/base-conhecimento-lumi.md` e `base-conhecimento/`.
+- Cada artigo deve ter pergunta, palavras-chave, resposta, fonte e status.
+- Conferir fontes institucionais e testar perguntas com sinônimos e variações.
 
-- **Generalista:** acolhe, identifica o assunto e direciona.
-- **Acadêmica:** matrícula, RA, documentos, declarações, histórico e secretaria.
-- **Financeira:** mensalidades, boletos, pagamentos, cobranças, bolsas e financiamentos.
-- **Campus:** calendário, avaliações, cursos e vida acadêmica.
+## Pesquisa Forms
+O formulário está preparado, mas ainda sem respostas. A atividade exige pelo menos 30 respostas reais. Após a coleta, categorizar as dúvidas, identificar recorrências e priorizar novos artigos com base nos dados observados. Não inventar resultados.
 
-Atendimento humano é uma rota demonstrativa de escalonamento, não um quinto agente.
-
-## 3. Regras de resposta
-
-1. Falar em português brasileiro, com clareza, empatia e objetividade.
-2. Usar a base JSON e exibir a fonte cadastrada.
-3. Não inventar datas, valores, prazos, documentos, regras ou políticas.
-4. Diferenciar orientação pública de análise individual.
-5. Calendários e regras podem variar por modalidade, currículo, curso e período.
-6. Não solicitar senha, token, dados bancários ou documentos pessoais no chat.
-7. Não afirmar que emitiu documento, confirmou pagamento ou abriu protocolo.
-8. Se não houver resposta segura, orientar o estudante a consultar os canais oficiais da UnP.
-9. Informar que a LUMI é um protótipo acadêmico independente.
-
-## 4. Gestão da base
-
-Arquivos principais:
-- `data/base-conhecimento-lumi.json`: conteúdo lido pelo chat.
-- `docs/base-conhecimento-lumi.md`: explicação, respostas-modelo, fontes e governança.
-
-Cada artigo contém `id`, `pergunta`, `palavras_chave`, `resposta`, `fonte` e `status`.
-
-Antes de publicar uma alteração:
-- confirmar a fonte e a versão do documento institucional;
-- conferir se o artigo pertence ao agente correto;
-- testar termos com e sem acentos e sinônimos;
-- conferir se a resposta não promete uma ação indisponível;
-- indicar quando a regra depende de curso, modalidade, currículo ou contrato;
-- atualizar a versão e a data de revisão do JSON.
-
-## 5. Pesquisa de campo — Forms
-
-A atividade prevê pelo menos 30 respostas reais de estudantes. Até a coleta, não inserir percentuais, ranking de dúvidas ou falas fictícias. Depois da coleta:
-1. organizar respostas por assunto;
-2. contar ocorrências e documentar o total de respondentes;
-3. identificar dúvidas não cobertas pela base;
-4. priorizar novos artigos conforme a frequência observada;
-5. manter relatos dos estudantes separados das regras oficiais da UnP.
-
-## 6. Testes recomendados
-
-- Pergunta respondida por cada especialista.
-- Pergunta com intenção ambígua ou múltiplos assuntos.
-- Pergunta fora do escopo.
-- Pergunta sem artigo correspondente.
-- Pedido de informação individual (nota, boleto, matrícula).
-- Pedido de ação (emitir declaração, alterar matrícula, abrir chamado).
-- Tentativa de obter dados sensíveis.
-- Pedido de atendimento humano.
-- Pergunta sobre data de calendário sem informar modalidade/currículo.
-
-Avaliar agente selecionado, precisão, clareza, fonte apresentada, segurança e qualidade do encaminhamento.
-
-## 7. Limites atuais
-
-O chat usa correspondência local por palavras-chave e arquivo JSON. Não há IA generativa, consulta a cadastro, emissão de documentos, processamento financeiro, abertura de protocolos, integração com equipe humana ou persistência de alterações feitas no painel.
+## Limites atuais
+O chat usa JavaScript e JSON com busca local por expressões e palavras-chave. Ainda não há IA generativa, persistência em banco, autenticação, consulta de cadastro, emissão de documentos, confirmação de pagamentos ou integração de atendimento humano. A próxima evolução para perguntas abertas é integrar um modelo de linguagem no backend com recuperação da base (RAG).
