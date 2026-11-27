@@ -3,6 +3,9 @@
 ## Etapa 1 — Protótipo atual
 - [x] Visão do aluno em página web.
 - [x] Alternância para área administrativa.
+- [x] Chat com tom acolhedor, atalhos, sugestões de próximos passos e menu.
+- [x] Opção demonstrativa de orientação humana, com aviso claro de que não há transferência real.
+- [x] Indicador de status e identificação do assunto/área.
 - [x] Telas demonstrativas de agentes, prompts, conhecimento, testes, resultados e histórico.
 - [x] Identidade visual em português brasileiro.
 - [ ] Testes de usabilidade com estudantes.
