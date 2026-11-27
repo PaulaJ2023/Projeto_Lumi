@@ -76,7 +76,7 @@
 ### 3.1 Mensalidades e boletos
 
 **Conhecimento confirmado em manual institucional público**
-- O manual do aluno orienta que os boletos sejam consultados no ambiente restrito LUMI, em **Menu > Financeiro > Extrato Financeiro**.
+- O manual do aluno orienta que os boletos sejam consultados na área Financeira da LUMI, conforme os recursos previstos no projeto.
 - O manual informa que, se houver dificuldade de visualização, o estudante deve buscar o atendimento digital.
 - Após o vencimento, o manual orienta emitir um novo boleto pela área correspondente da LUMI.
 - O manual alerta que condições de descontos vinculados ao vencimento podem ser afetadas pelo pagamento fora do prazo.
