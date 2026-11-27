@@ -35,8 +35,20 @@ O enunciado menciona o autoatendimento via WhatsApp na pesquisa, mas permite imp
 - Modelo de linguagem: a definir e justificar na documentação técnica.
 - Docker: opcional para empacotamento.
 
+## Base de conhecimento inicial — UNP Salgado Filho
+O arquivo `data/base-conhecimento-unp.json` reúne artigos nas categorias Acadêmica, Financeira e Campus, com perguntas, palavras-chave, respostas, links de fonte e pendências de validação local. O chat carrega esse arquivo com `fetch()` e usa correspondência simples por palavras-chave para selecionar uma resposta. Os artigos atuais são orientações iniciais baseadas em páginas públicas oficiais da UNP; eles não substituem confirmação individual no Ulife ou atendimento institucional.
+
+Fontes principais:
+- [Sou estudante](https://www.unp.br/sou-estudante/)
+- [Calendário acadêmico](https://www.unp.br/sou-estudante/calendario/)
+- [Área do Candidato](https://www.unp.br/sou-candidato/)
+- [Cursos](https://www.unp.br/cursos/)
+- Manuais do Aluno (links e escopo registrados dentro do JSON).
+
+Para atualizar a base, edite o JSON mantendo a estrutura `categorias → categoria → itens`. Cada artigo deve ter `id`, `pergunta`, `palavras_chave`, `resposta`, `fonte` e `status`. Não adicione regras locais sem validação.
+
 ## Estado atual e limitações
-Este repositório contém um **protótipo de interface**, não uma aplicação com IA integrada. As respostas usam regras simples por palavras-chave. Prompts e itens da base podem ser editados na interface, mas não persistem. Ainda não há autenticação administrativa, banco de dados, API ou integração com n8n/modelo de linguagem. Indicadores ilustrativos não são dados reais.
+Este repositório contém um **protótipo de interface**, não uma aplicação com IA integrada. As respostas usam regras simples por palavras-chave consultando o arquivo JSON. O arquivo JSON é versionado no GitHub; itens adicionados pelo formulário administrativo ainda não persistem. Ainda não há autenticação administrativa, banco de dados, API ou integração com n8n/modelo de linguagem. Indicadores ilustrativos não são dados reais.
 
 ## Estrutura
 ```
